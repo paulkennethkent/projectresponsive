@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="container">
+    <div class="branding">
+      <img src="http://placehold.it/100x70?text=Project+Responsive">
+    </div>
+
+    <div class="trigger">
+      <ul>
+        {% for my_page in site.pages %} {% if my_page.title %}
+        <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+        {% endif %} {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</header>

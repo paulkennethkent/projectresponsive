@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Project Responsive
+email: paul@projectresponsive.com
+description: "Hello, it's me"
+baseurl: ""
+url: "http://projectresponsive.com"
+tagline: "Paul Kenneth Kent portfollio"
+twitter_username: paulkennehtkent
+github_username:  paulkennethkent
+
+# Build settings
+markdown: kramdown
+
+#gems
+gems:
+- susy
+- breakpoint
+- normalize-scss
