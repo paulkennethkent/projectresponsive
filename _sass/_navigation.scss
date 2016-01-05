@@ -1,16 +1,19 @@
+$high-tide: 1000px;
 .trigger {
-    @include span(4 at 9);
+  @include respond-to(desktop) {
     height: $header-height;
     line-height: $header-height;
-  ul {
-    vertical-align: middle;
-    list-style: none;
-
-    li {
-      display: inline-block;
-      padding: 5px;
-      a {
-        text-decoration: none;
+    ul {
+      vertical-align: middle;
+      list-style: none;
+      float: right;
+      li {
+        display: inline-block;
+        padding: 5px;
+        overflow: hidden;
+        a {
+          text-decoration: none;
+        }
       }
     }
   }
@@ -18,9 +21,7 @@
 .branding {
   height: $header-height;
   line-height: $header-height;
-
   img {
-     vertical-align: middle;
+    vertical-align: middle;
   }
-
 }

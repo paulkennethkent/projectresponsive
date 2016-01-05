@@ -16,7 +16,7 @@ header {
     @include span(4);
   }
   .trigger {
-    @include span(4 at 9);
+    @include span(8 at 4);
   }
 }
 body {
