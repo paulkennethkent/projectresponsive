@@ -12,16 +12,19 @@ title: Home
 
 <div class="content">
   <h1 class="page-heading">Posts</h1>
-    {% for post in site.posts %}
+    {% for post in paginator.posts limit:1 %}
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
       <p>
         <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
+        <p>{{post.excerpt}}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         <hr>
       </p>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+
     {% endfor %}
   </div>
 

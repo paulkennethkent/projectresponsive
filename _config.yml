@@ -17,9 +17,12 @@ github_username:  paulkennethkent
 
 # Build settings
 markdown: kramdown
+paginate: 4
+paginate_path: '/blog/page:num/'
 
 #gems
 gems:
 - susy
 - breakpoint
 - normalize-scss
+- jekyll-paginate

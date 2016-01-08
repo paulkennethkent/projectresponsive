@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portfollio
-permalink: /blog/
+permalink: /portfollio/
 ---
 
   <h1 class="page-heading">Posts</h1>
