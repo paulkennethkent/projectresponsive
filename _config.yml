@@ -14,10 +14,13 @@ url: "http://projectresponsive.com"
 tagline: "Paul Kenneth Kent portfollio"
 twitter_username: paulkennehtkent
 github_username:  paulkennethkent
+collections:
+ projects:
+  output: true
 
 # Build settings
 markdown: kramdown
-paginate: 4
+paginate: 3
 paginate_path: '/blog/page:num/'
 
 #gems

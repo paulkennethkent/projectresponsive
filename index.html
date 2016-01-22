@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 <div class="home" >
@@ -11,11 +10,14 @@ title: Home
 </div>
 
 <div class="content">
-  <h1 class="page-heading">Posts</h1>
-    {% for post in paginator.posts limit:1 %}
-    <h2>
+
+
+    {% for post in site.posts limit:1 %}
+    <article class="home-art">
+      <h1 class="page-heading">Posts</h1>
+    <h3>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
+    </h3>
       <p>
         <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
         <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
@@ -23,11 +25,24 @@ title: Home
         <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         <hr>
       </p>
-
-
+    </article>
     {% endfor %}
-  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    {% for post in site.projects limit:1 %}
+    <article class="home-proj">
+      <h1 class="page-heading">Projects</h1>
+    <h3>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h3>
+      <p>
+        <p>{{post.excerpt}}</p>
+        <hr>
+      </p>
+    </article>
+    {% endfor %}
+
+
+<!--
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
