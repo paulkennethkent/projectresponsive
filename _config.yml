@@ -17,11 +17,14 @@ github_username:  paulkennethkent
 collections:
  projects:
   output: true
+  permalink: /projects/:title
 
 # Build settings
 markdown: kramdown
 paginate: 3
 paginate_path: '/blog/page:num/'
+permalink: /blog/:title
+
 
 #gems
 gems:

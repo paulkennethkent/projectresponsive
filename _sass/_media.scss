@@ -32,6 +32,8 @@
   }
 }
 
+/* blockquote styles */
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -49,4 +51,17 @@ blockquote:before {
 }
 blockquote p {
   display: inline;
+}
+
+
+/* code styles  */
+
+pre {
+  background-color: black;
+  padding: 10px;
+  margin:5px 40px;
+  border-left: 10px solid $green;
+  code {
+  color: white
+  }
 }

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
 ---
   {% for post in paginator.posts limit:3 %}
   <h2>
@@ -21,18 +20,18 @@ permalink: /blog/
   {% if paginator.previous_page %}
   {% if paginator.previous_page == 1 %}
   <p class="prevLink">
-    <a href="{{site.baseurl}}/" class="previous">new enteries</a>
+    <a href="{{site.baseurl}}/blog/" class="previous">new enteries</a>
   </p>
   {% else %}
   <p class="prevLink">
-    <a href="{{site.baseurl}}/blogs/page{{paginator.previous_page}}" class="previous" >new enteries</a>
+    <a href="{{site.baseurl}}/blog/page{{paginator.previous_page}}" class="previous" >new enteries</a>
   </p>
  {% endif %}
  {% endif %}
 
  {% if paginator.next_page %}
   <p class="nextLink">
-    <a href="{{site.baseurl}}/blogs/page{{paginator.next_page}}" class="next">older entries</a>
+    <a href="{{site.baseurl}}/blog/page{{paginator.next_page}}" class="next">older entries</a>
   </p>
   {% endif %}
 
