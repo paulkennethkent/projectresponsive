@@ -3,8 +3,8 @@ layout: post
 title:  "Why I have created a blog and project website"
 date:   2016-01-18
 categories: jekyll update
-author: "Paul Kent"
 excerpt_separator: <!-- more -->
+tags: [duolingo, web design, blogging, lynda, jekyll]
 ---
 
 I have always struggled to find time to learn but after I took the the time to plans my days I can commit at least 1-2 hours a day to learning news things. <!-- more --> The only way that I seem to work is reward effectively is by creating a *reward system* for myself.

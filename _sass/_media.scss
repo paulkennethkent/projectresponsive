@@ -1,15 +1,15 @@
 .mega {
-  background-color: #434343;
-  background-image: linear-gradient(#434343, #282828);
   margin-left:-100%;
   margin-right:-100%;
+  border: 2px solid black;
   .hero {
-    min-height: 400px;
-    background-color: transparent;
-    background-image: linear-gradient(0deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent), linear-gradient(90deg, transparent 24%, rgba(255, 255, 255, .05) 25%, rgba(255, 255, 255, .05) 26%, transparent 27%, transparent 74%, rgba(255, 255, 255, .05) 75%, rgba(255, 255, 255, .05) 76%, transparent 77%, transparent);
-    height: 100%;
-    background-size: 50px 50px;
-  }
+    min-height: 401px;
+    background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
+    background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
+    background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
+      height: 100%;
+      background-size: 20px 20px;
+    }
 }
 
 .container {
@@ -18,18 +18,63 @@
 
 .content {
   @include span(12);
+  margin: 5px 0 0 0;
 }
 
+// homepage
+
 .home-art {
-  @include span(6);
+  @include span(5.5);
 }
 
 .home-proj {
-  @include span(6);
+   @include push(1);
+  @include span(5.5);
+
   img {
+    border: 0.1em solid black;
     max-width: 100%;
     max-height: 100%;
+
   }
+}
+
+// blog home
+
+.blog-list {
+  @include span(9);
+}
+// sidebar
+.sidebar {
+  @include span(3);
+  border-right: 1px solid $cashmere;
+}
+
+// post styles
+
+.post-title {
+
+}
+
+.post-meta {
+ color: white;
+ padding: 0.2em;
+ color: $quiet-color;
+}
+
+.post-link {
+  text-decoration: none;
+  @extend .link;
+}
+
+.post-content {
+  margin: 1em 0 0 0;
+}
+
+.post-readmore {
+  @extend .link;
+  text-align: right;
+  font-size: 0.7em;
 }
 
 /* blockquote styles */
@@ -53,6 +98,17 @@ blockquote p {
   display: inline;
 }
 
+// tag cloud
+
+.tagcloud {
+
+  padding-left:5px;
+  li {
+  list-style: none;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  }
+}
 
 /* code styles  */
 

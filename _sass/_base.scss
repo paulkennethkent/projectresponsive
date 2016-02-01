@@ -9,7 +9,6 @@ html {
 }
 header {
   @include span(12);
-  background-color: #ee2 height 50px;
   border: 1px solid #ccc;
   position: static;
   .branding {

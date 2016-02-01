@@ -1,23 +1,23 @@
-$high-tide: 1000px;
 .trigger {
-  @include respond-to(desktop) {
     height: $header-height;
     line-height: $header-height;
-    ul {
-      vertical-align: middle;
-      list-style: none;
-      float: right;
-      li {
-        display: inline-block;
-        padding: 5px;
-        overflow: hidden;
-        a {
-          text-decoration: none;
-        }
-      }
+  }
+
+.fixed-top-nav {
+  vertical-align: middle;
+  list-style: none;
+  white-space: nowrap;
+  text-align: right;
+  li {
+    display: inline-block;
+    padding: 5px;
+    a {
+      text-decoration: none;
+      font-weight: bold;
     }
   }
 }
+
 .branding {
   height: $header-height;
   line-height: $header-height;
