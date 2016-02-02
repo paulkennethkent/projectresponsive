@@ -1,3 +1,4 @@
+$high-tide: max-width 500px;
 .trigger {
     height: $header-height;
     line-height: $header-height;
@@ -11,6 +12,7 @@
   li {
     display: inline-block;
     padding: 5px;
+    // font-family: $heading-font-family;
     a {
       text-decoration: none;
       font-weight: bold;
@@ -21,6 +23,22 @@
 .branding {
   height: $header-height;
   line-height: $header-height;
+  font-family: $heading-font-family;
+
+  font-size: 1.5vw;
+  white-space: nowrap;
+  @include breakpoint($high-tide) {
+    color: $cashmere;
+    h1 {
+      visibility: hidden;
+    }
+    h1:after {
+      content: "Proj.R";
+      visibility: visible;
+      font-size: 2vw;
+      position: absolute;
+    }
+  }
   img {
     vertical-align: middle;
   }

@@ -1,8 +1,13 @@
+  // Google fonts
+ @import url(https://fonts.googleapis.com/css?family=Permanent+Marker|Passion+One:400,700);
+
 
 
 /*
  * Variables
  */
+
+
 
 $text-color: #333;
 $quiet-color: #A9A9A9;
@@ -21,8 +26,8 @@ $fixed-font-family: 'Andale Mono', AndaleMono, monospace;
 $fixed-font-size: 15px;
 $fixed-line-height: 1.2;
 
-$heading-font-family: 'Roboto Condensed', sans-serif;
-$heading-font-weight: 700;
+$heading-font-family: 'Permanent Marker', cursive;
+$heading-font-weight: 400;
 
 
 /*
@@ -37,7 +42,9 @@ body {
   line-height: 1.6;
 }
 
-
+.perm {
+  font-family: $heading-font-family;
+}
 /*
  * Typography
  */

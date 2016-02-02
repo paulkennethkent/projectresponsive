@@ -14,7 +14,7 @@ layout: default
 
     {% for post in site.posts limit:1 %}
     <article class="home-art">
-      <h1 class="page-heading">[ Posts ]</h1>
+      <h1 class="perm">Posts</h1>
     <h3>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h3>
@@ -30,7 +30,7 @@ layout: default
 
     {% for post in site.projects limit:1 %}
     <article class="home-proj">
-      <h1 class="page-heading">[ Projects ]</h1>
+      <h1 class="perm">Projects</h1>
     <h3>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h3>
