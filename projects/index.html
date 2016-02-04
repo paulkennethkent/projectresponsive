@@ -3,18 +3,23 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-  {% for post in site.projects %}
-  <h2>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-  </h2>
-    <p>
-      <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
-      <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
-      <p>{{post.excerpt}}</p>
-      <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-      <hr>
-    </p>
-  {% endfor %}
-</div>
+<div class="content">
+  <h2 class="perm">Projects</h2>
+  <div class="project-list">
+    {% for post in site.projects %}
+    <div class="project-card">
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+        <p>
+          <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
+          <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
+          <p>{{post.excerpt}}</p>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+          <hr>
+        </p>
+    </div>
+    {% endfor %}
+  </div>
 
 </div>

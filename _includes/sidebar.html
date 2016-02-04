@@ -1,5 +1,5 @@
 <div class="sidebar">
-  <h3>Archive</h3>
+  <h2 class="perm">Archive</h2>
 
   <ul class="tagcloud">
     {% capture site_tags %}{% for tag in site.tags %}{{tag | first}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -8,15 +8,15 @@
 
 
     {% for tag in sortedTags %}
-      <h4 id="{{tag | cgi_escape}}">{{tag}}</h4>
+      <h3 id="{{tag | cgi_escape}}">{{tag}}</h3>
 
 
 
       {% for post in site.tags[tag] %}
 
-      <li>
-        <time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%d %b, %Y"}}</time> | <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
-      </li>
+      <li><time itemprop="dateCreated" datetime="{{post.date}}">{{ post.date | date: "%d %b, %Y"}}</time>  </li>
+      <li> <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent link to {{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
+
 
       {% endfor %}
 

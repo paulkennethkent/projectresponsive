@@ -8,10 +8,12 @@ title: Blog
   {% include sidebar.html %}
 
   <div class="blog-list">
+    <h2 class="perm">{{ page.title }}</h2>
     {% for post in paginator.posts limit:3 %}
-    <h2>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h2>
+    <div class="blog-post">
+      <h3>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
       <p>
         <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
         <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
@@ -19,6 +21,7 @@ title: Blog
         <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         <hr>
       </p>
+    </div>
     {% endfor %}
 
 
@@ -39,10 +42,12 @@ title: Blog
       <p class="nextLink">
         <a href="{{site.baseurl}}/blog/page{{paginator.next_page}}" class="next">older entries</a>
       </p>
+
       {% endif %}
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-    </div>
-  </div>
+    </div> <!-- pagination end -->
+  </div><!-- blog-post end -->
+
 
    <!-- include sidebar -->
 
