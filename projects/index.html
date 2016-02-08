@@ -8,16 +8,11 @@ permalink: /projects/
   <div class="project-list">
     {% for post in site.projects %}
     <div class="project-card">
-      <h3>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
-        <p>
+          {{post.excerpt}}
           <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
           <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
-          <p>{{post.excerpt}}</p>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-          <hr>
-        </p>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span></span></a>
     </div>
     {% endfor %}
   </div>
