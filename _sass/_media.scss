@@ -9,8 +9,17 @@
     background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
       height: 100%;
       background-size: 20px 20px;
+      img {
+        max-width: 10%;
+        max-height: 10%;
+        display: block;
+        vertical-align: middle;
+        margin: auto;
+        padding: 50px;
+
+      }
     }
-}
+  }
 
 .container {
   @include container(80%);
