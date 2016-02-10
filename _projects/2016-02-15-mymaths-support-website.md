@@ -6,6 +6,6 @@ author: "Paul Kent"
 excerpt_separator: <!-- more -->
 permalink: '/projects/:path'
 ---
-![Kerboodle Support Website]({{site.baseurl}}/images/kerboodle-support.png)<!-- more -->
+![MyMaths]({{site.baseurl}}/images/mymaths.png)<!-- more -->
 <p>I am a post la la la wooooooooo 1st</p>
 <p>I am a post la la la wooooooooo 2nd paragraphy</p>
