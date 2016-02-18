@@ -2,9 +2,10 @@
 layout: default
 title: Projects
 permalink: /projects/
+weight: 4
 ---
 <div class="content">
-  <h2 class="perm">Projects</h2>
+  <h2>Projects</h2>
     {% for post in site.projects %}
      {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
      {% if modulo == '0' or forloop.first %}

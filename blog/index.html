@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Blog
+weight: 3
 ---
 
 
@@ -8,7 +9,7 @@ title: Blog
   {% include sidebar.html %}
 
   <div class="blog-list">
-    <h2 class="perm">{{ page.title }}</h2>
+    <h2>{{ page.title }}</h2>
     {% for post in paginator.posts limit:3 %}
     <div class="blog-post">
       <h3>

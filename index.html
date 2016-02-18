@@ -1,11 +1,12 @@
 ---
 layout: default
+title: Home
+weight: 1
 ---
 
 <div class="home" >
 <div class="mega">
   <div class="hero">
-      <img src="images/aldwick-building.png" alt="" />
   </div>
 </div>
 <div class="content">
@@ -14,9 +15,9 @@ layout: default
     {% for post in site.posts limit:1 %}
     <article class="home-art">
       <h1 class="perm">Posts</h1>
-    <h3>
+    <h4>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
+    </h4>
       <p>
         <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
         <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
@@ -30,9 +31,9 @@ layout: default
     {% for post in site.projects limit:1 %}
     <article class="home-proj">
       <h1 class="perm">Projects</h1>
-    <h3>
+    <h4>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </h3>
+    </h4>
       <p>
         <p>{{post.excerpt}}</p>
         <hr>

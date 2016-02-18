@@ -1,7 +1,11 @@
 $high-tide: max-width 500px;
 .trigger {
-    height: $header-height;
     line-height: $header-height;
+    height: $header-height;
+    margin: 0px auto;
+    .active {
+      border-bottom: 3px solid $green;
+    }
   }
 
 .fixed-top-nav {
@@ -11,11 +15,12 @@ $high-tide: max-width 500px;
   text-align: right;
   li {
     display: inline-block;
-    padding: 5px;
+    padding:0 5px 0 5px;
     // font-family: $heading-font-family;
     a {
       text-decoration: none;
       font-weight: bold;
+
     }
   }
 }
@@ -28,14 +33,12 @@ $high-tide: max-width 500px;
   font-size: 1.5vw;
   white-space: nowrap;
   @include breakpoint($high-tide) {
-    color: $cashmere;
     h1 {
       visibility: hidden;
     }
     h1:after {
-      content: "Proj.R";
+      content: "PR";
       visibility: visible;
-      font-size: 2vw;
       position: absolute;
     }
   }
