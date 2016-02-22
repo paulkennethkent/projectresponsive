@@ -1,7 +1,7 @@
 .mega {
   margin-left:-100%;
   margin-right:-100%;
-  border: 2px solid black;
+  border: 2px solid $green;
   .hero {
     min-height: 401px;
     background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
@@ -9,6 +9,7 @@
     background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
       height: 100%;
       background-size: 20px 20px;
+      perspective: 1000px;
       img {
         max-width: 10%;
         max-height: 10%;
@@ -16,6 +17,7 @@
         vertical-align: middle;
         margin: auto;
         padding: 50px;
+        transform: rotateY(45deg);
 
       }
     }
@@ -60,7 +62,7 @@
 // sidebar
 .sidebar {
   @include span(3);
-  border-right: 1px solid $cashmere;
+  border-right: 1px solid $green;
 }
 
 // post styles

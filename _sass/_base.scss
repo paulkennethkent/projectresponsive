@@ -9,7 +9,7 @@ html {
 }
 header {
   @include span(12);
-  border: 1px solid #ccc;
+  border-bottom: 1px solid $green;
   position: static;
   .branding {
     @include span(4);
@@ -37,7 +37,7 @@ footer {
   bottom: 0;
   width: 100%;
   height: 50px;
-  border-top: 2px solid #000;
+  border-top: 2px solid $green;
   ul {
 /*     color: #fff; */
   }
