@@ -17,11 +17,23 @@
         vertical-align: middle;
         margin: auto;
         padding: 50px;
-        transform: rotateY(45deg);
+      }
 
+      .pencil {
+        animation-name: slide;
+        animation-duration: 5s
       }
     }
   }
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform:translateX(900px);
+  }
+}
 
 .container {
   @include container(80%);
