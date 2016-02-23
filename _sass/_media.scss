@@ -14,25 +14,31 @@
         max-width: 10%;
         max-height: 10%;
         display: block;
-        vertical-align: middle;
-        margin: auto;
         padding: 50px;
       }
 
       .pencil {
         animation-name: slide;
-        animation-duration: 5s
+        animation-duration: 10s;
+        animation-delay:1s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
       }
     }
   }
 
 @keyframes slide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform:translateX(900px);
-  }
+  0%{ transform: translateX(200px) rotate(0.1turn);}
+  10%{ transform: translateX(300px)  translateY(10px) rotate(0.1turn);}
+  20%{ transform: translateX(500px);}
+  30%{ transform: translateX(800px) translateY(100px);}
+  40%{ transform: translateX(1000px) rotate(-0.1turn);}
+  50%{ transform: translateX(1200px) translateY(-10px);}
+  60%{ transform: translateX(1500px) ;}
+  70%{ transform: translateX(1600px) translateY(50px) rotate(0.1turn);}
+  80%{ transform: translateX(1800px);}
+  90%{ transform: translateX(1900px) translateY(10px)rotate(-0.1turn);}
+  100%{ transform: translateX(2000px) rotate(-0.1turn);}
 }
 
 .container {
