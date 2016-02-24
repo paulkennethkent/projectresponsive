@@ -7,38 +7,84 @@
     background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
     background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
     background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
-      height: 100%;
-      background-size: 20px 20px;
-      perspective: 1000px;
-      img {
+    height: 100%;
+    background-size: 20px 20px;
+    perspective: 1000px;
+
+      .pencil {
+        animation-name: slide;
+        animation-duration: 8s;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+        z-index: 200px;
+      }
+
+      .sketch {
         max-width: 10%;
         max-height: 10%;
         display: block;
         padding: 50px;
-      }
-
-      .pencil {
-        animation-name: slide;
-        animation-duration: 10s;
-        animation-delay:1s;
-        animation-fill-mode: forwards;
-        animation-timing-function: linear;
+        margin: 0 auto;
+        position: relative;
+        z-index: 100px;
       }
     }
   }
 
 @keyframes slide {
-  0%{ transform: translateX(200px) rotate(0.1turn);}
-  10%{ transform: translateX(300px)  translateY(10px) rotate(0.1turn);}
-  20%{ transform: translateX(500px);}
-  30%{ transform: translateX(800px) translateY(100px);}
-  40%{ transform: translateX(1000px) rotate(-0.1turn);}
-  50%{ transform: translateX(1200px) translateY(-10px);}
-  60%{ transform: translateX(1500px) ;}
-  70%{ transform: translateX(1600px) translateY(50px) rotate(0.1turn);}
-  80%{ transform: translateX(1800px);}
-  90%{ transform: translateX(1900px) translateY(10px)rotate(-0.1turn);}
-  100%{ transform: translateX(2000px) rotate(-0.1turn);}
+  0%{
+    transform: translateX(200px)
+    rotate(0.1turn);
+    animation-timing-function:ease-in;
+  }
+  10%{
+    transform: translateX(300px)
+    translateY(10px)
+    rotate(0.1turn);
+    animation-timing-function:ease-out;
+  }
+  20%{
+    transform: translateX(500px);
+    animation-timing-function:ease-in;
+  }
+  30%{
+    transform: translateX(800px)
+    translateY(100px);
+    animation-timing-function:ease-out;
+  }
+  40%{
+    transform: translateX(1000px)
+    rotate(-0.1turn);
+    animation-timing-function:ease-in;
+  }
+  50%{
+    transform: translateX(1200px)
+    translateY(-200px);
+    animation-timing-function:ease-out;
+  }
+  60%{
+    transform: translateX(1500px)
+    translateY(100px);
+    animation-timing-function:ease-in;
+  }
+  70%{
+    transform: translateX(1600px)
+    translateY(-150px) rotate(0.1turn);
+    animation-timing-function:ease-out;
+  }
+  80%{
+    transform: translateX(1800px)
+    translateY(100px);
+  }
+  90%{
+    transform: translateX(1900px)
+    translateY(-200px)
+    rotate(-0.1turn);
+  }
+  100%{
+    transform: translateX(2000px)
+    rotate(-0.1turn);
+  }
 }
 
 .container {
