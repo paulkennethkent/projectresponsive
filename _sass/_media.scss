@@ -10,81 +10,60 @@
     height: 100%;
     background-size: 20px 20px;
     perspective: 1000px;
-
-      .pencil {
-        animation-name: slide;
-        animation-duration: 8s;
-        animation-fill-mode: forwards;
-        animation-timing-function: linear;
-        z-index: 200px;
-      }
-
-      .sketch {
-        max-width: 10%;
-        max-height: 10%;
-        display: block;
-        padding: 50px;
-        margin: 0 auto;
-        position: relative;
-        z-index: 100px;
-      }
     }
   }
+  .sketch {
+    animation: fade;
+    animation-duration: 3s;
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+    padding: 50px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .pencil {
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    max-width: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 50%;
+    position: absolute;
+  }
+
 
 @keyframes slide {
-  0%{
-    transform: translateX(200px)
-    rotate(0.1turn);
-    animation-timing-function:ease-in;
+  0%  {
+    transform: translateY(0px);
   }
-  10%{
-    transform: translateX(300px)
-    translateY(10px)
-    rotate(0.1turn);
-    animation-timing-function:ease-out;
+
+  20% {
+    transform: translateX(10px) translateY(100px) rotate(0.1turn);
   }
-  20%{
-    transform: translateX(500px);
-    animation-timing-function:ease-in;
+
+  90% {
+    transform: translateX(-10px) translateY(200px) rotate(-0.1turn);
   }
-  30%{
-    transform: translateX(800px)
-    translateY(100px);
-    animation-timing-function:ease-out;
-  }
-  40%{
-    transform: translateX(1000px)
-    rotate(-0.1turn);
-    animation-timing-function:ease-in;
-  }
-  50%{
-    transform: translateX(1200px)
-    translateY(-200px);
-    animation-timing-function:ease-out;
-  }
-  60%{
-    transform: translateX(1500px)
-    translateY(100px);
-    animation-timing-function:ease-in;
-  }
-  70%{
-    transform: translateX(1600px)
-    translateY(-150px) rotate(0.1turn);
-    animation-timing-function:ease-out;
-  }
-  80%{
-    transform: translateX(1800px)
-    translateY(100px);
-  }
-  90%{
-    transform: translateX(1900px)
-    translateY(-200px)
-    rotate(-0.1turn);
-  }
+
   100%{
-    transform: translateX(2000px)
-    rotate(-0.1turn);
+    transform: translateY(250px);
   }
+}
+
+@keyframes fade {
+
+  0%  {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
 }
 
 .container {
