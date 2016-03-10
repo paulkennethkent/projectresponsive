@@ -1,16 +1,15 @@
 ---
 layout: default
-title: Blog
+title: Posts
 weight: 3
 ---
 
 
 <div class="content">
-  {% include sidebar.html %}
 
   <div class="blog-list">
     <h2>{{ page.title }}</h2>
-    {% for post in paginator.posts limit:3 %}
+    {% for post in site.posts %}
     <div class="blog-post">
       <h3>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -25,31 +24,7 @@ weight: 3
     </div>
     {% endfor %}
 
-
-    <div class="pagination">
-      {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-      <p class="prevLink">
-        <a href="{{site.baseurl}}/blog/" class="previous">new enteries</a>
-      </p>
-      {% else %}
-      <p class="prevLink">
-        <a href="{{site.baseurl}}/blog/page{{paginator.previous_page}}" class="previous" >new enteries</a>
-      </p>
-     {% endif %}
-     {% endif %}
-
-     {% if paginator.next_page %}
-      <p class="nextLink">
-        <a href="{{site.baseurl}}/blog/page{{paginator.next_page}}" class="next">older entries</a>
-      </p>
-
-      {% endif %}
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-    </div> <!-- pagination end -->
   </div><!-- blog-post end -->
 
-
-   <!-- include sidebar -->
 
 </div>

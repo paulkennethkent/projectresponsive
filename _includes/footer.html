@@ -8,11 +8,11 @@
         <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       </li>
       <li>{{ site.description }}</li>
-  
-        <li> <a class="link" href="/">Home</a></li>
-        {% for my_page in site.pages %} {% if my_page.title %}
-        <li id="{{my_page.title}}"><a class="link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-        {% endif %} {% endfor %}
+
+      {% assign pages = site.pages | sort:"weight"  %}
+      {% for my_page in pages %} {% if my_page.weight %}
+      <li id="{{my_page.title}}"><a {% if my_page.url == page.url %}active {% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+      {% endif %} {% endfor %}
     </ul>
 
   </div>

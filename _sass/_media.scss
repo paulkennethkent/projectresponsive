@@ -14,7 +14,7 @@
   }
   .sketch {
     animation: fade;
-    animation-duration: 3s;
+    animation-duration: 6s;
     max-width: 20%;
     max-height: 20%;
     display: block;
@@ -95,7 +95,7 @@
 // blog home
 
 .blog-list {
-  @include span(9);
+  @include span(12);
   padding: 5px;
 }
 

@@ -11,7 +11,7 @@ email: paul@projectresponsive.com
 description: "Hello, it's me"
 baseurl: ""
 url: "http://projectresponsive.com"
-tagline: "Paul Kenneth Kent portfollio"
+tagline: "Paul Kenneth Kent"
 twitter_username: paulkennehtkent
 github_username:  paulkennethkent
 collections:
@@ -21,8 +21,6 @@ collections:
 
 # Build settings
 markdown: kramdown
-paginate: 3
-paginate_path: '/blog/page:num/'
 permalink: /blog/:title
 
 
