@@ -1,0 +1,52 @@
+.sketch {
+  animation: fade;
+  animation-duration: 6s;
+  max-width: 20%;
+  max-height: 20%;
+  display: block;
+  padding: 50px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.pencil {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 50%;
+  position: absolute;
+}
+
+@keyframes slide {
+  0%  {
+    transform: translateY(0px);
+  }
+
+  20% {
+    transform: translateX(10px) translateY(100px) rotate(0.1turn);
+  }
+
+  90% {
+    transform: translateX(-10px) translateY(200px) rotate(-0.1turn);
+  }
+
+  100%{
+    transform: translateY(250px);
+  }
+}
+
+@keyframes fade {
+
+  0%  {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}

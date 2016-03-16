@@ -5,13 +5,13 @@ permalink: /about/
 weight: 2
 ---
 
-This website has been developed to showcase the projects I have completed over the past few years.
+This website has been developed to showcase the projects I have completed over the past few years.  
 
-I have always enjoyed working in the technology industry and think that now is the time to focus more on aspects of development and design that I enjoy.
+I have worked in the technology side of publishing for over 5 years now and I know now is the time to focus more on aspects of development and design that I enjoy. I believe having a project website will help me to focus on producing content.   
 
-Why the name project responsive? In the past I was very focused on making responsive websites but now this is just a given in any aspect of development or webdesign. My ultimate goal is still to produce an original concept or idea and build it from start to finish.
+Why the name project responsive? In the past I was very focused on making responsive websites but now this is just a given in any aspect of development or webdesign. My ultimate goal is still to produce an original concept or idea, building it from start to finish and making it accessible to everyone. So for now I am going to stick with the name.  
 
-If I learn anything new and exciting I am going to try and post the information [blog]({{site.baseurl}}/blog "here"). I do have other interests other than development so there might be a few posts about learning spanish, football, running and computer games.
+If I learn anything new and exciting I am going to try and post the information [blog]({{site.baseurl}}/blog "here"). I do have other interests other than development so there might be a few posts about learning spanish, football, running and computer games.  
 
 [![Instagram]({{site.baseurl}}/images/insta.svg)](https://www.instagram.com/pkkent/?ref=badge)
 [![Linked In]({{site.baseurl}}/images/linked.svg)](https://uk.linkedin.com/pub/paul-kent/45/755/b88)

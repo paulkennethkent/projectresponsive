@@ -22,10 +22,6 @@ $base-font-family: 'Roboto Condensed', sans-serif;
 $base-font-size: 18px;
 $base-font-weight: 300;
 
-$fixed-font-family: 'Andale Mono', AndaleMono, monospace;
-$fixed-font-size: 15px;
-$fixed-line-height: 1.2;
-
 $heading-font-family: 'Cabin', sans-serif;;
 $heading-font-weight: 400;
 
@@ -48,6 +44,12 @@ body {
 h1, h2, h3 {
   font-family: $heading-font-family;
 }
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
 /*
  * Typography
  */
@@ -66,7 +68,7 @@ h1, h2, h3 {
   }
 }
 
-.fixed { font-family: $fixed-font-family; font-size: $fixed-font-size; line-height: $fixed-line-height; }
+
 
 .quiet { font-color: $quiet-color; }
 .loud  { font-color: $loud-color; }
@@ -107,7 +109,6 @@ h1, h2, h3 {
   ul { @extend .unordered-list; }
   ol { @extend .ordered-list; }
 
-  pre, code { @extend .fixed; }
 }
 
 
@@ -127,10 +128,7 @@ h1, h2, h3 {
  * Object definitions
  */
 
-.content {
-  margin: 0 auto;
-  width: 32em;
-}
+
 
 .header-block {
   font-size: 110%;

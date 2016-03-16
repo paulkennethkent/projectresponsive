@@ -20,13 +20,11 @@ weight: 1
     <h4>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h4>
-      <p>
         <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
         <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
-        <p>{{post.excerpt}}</p>
+        {{post.excerpt}}
         <a class="post-readmore" href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         <hr>
-      </p>
     </article>
     {% endfor %}
 
@@ -36,10 +34,7 @@ weight: 1
     <h4>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h4>
-      <p>
-        <p>{{post.excerpt}}</p>
-        <hr>
-      </p>
+        {{post.excerpt}}
     </article>
     {% endfor %}
 
