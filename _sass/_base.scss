@@ -21,7 +21,7 @@ header {
 body {
   height: 100%;
   // font-family: $font-main;
-   margin: 0 0 60px; /* bottom = footer height */
+   margin: 0 0 250px; /* bottom = footer height */
 }
 
 main {
@@ -36,7 +36,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 250px;
   border-top: 2px solid $lightgrey;
   color: white;
   ul {
