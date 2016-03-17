@@ -7,4 +7,4 @@ excerpt_separator: <!-- more -->
 tags: [blogging, jekyll]
 ---
 
-## Why I have created a blog and project website
+because I need to!
