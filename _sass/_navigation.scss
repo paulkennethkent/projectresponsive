@@ -29,20 +29,16 @@ $high-tide: max-width 500px;
   height: $header-height;
   line-height: $header-height;
   font-family: $heading-font-family;
-
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   white-space: nowrap;
-  @include breakpoint($high-tide) {
-    h1 {
-      visibility: hidden;
-    }
-    h1:after {
-      content: "PR";
-      visibility: visible;
-      position: absolute;
-    }
+  float:left;
+  svg {
+    float:left;
+    height: 50px;
+    height: 50px;
+    line-height: $header-height;
+    margin: 5px;
   }
-  img {
-    vertical-align: middle;
+  @include breakpoint($high-tide) {
   }
 }
