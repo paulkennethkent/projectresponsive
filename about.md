@@ -13,6 +13,11 @@ Why the name project responsive? In the past I was very focused on making respon
 
 If I learn anything new and exciting I am going to try and post the information [blog]({{site.baseurl}}/blog "here"). I do have other interests other than development so there might be a few posts about learning spanish, football, running and computer games.  
 
-[![Instagram]({{site.baseurl}}/images/insta.svg)](https://www.instagram.com/pkkent/?ref=badge)
-[![Linked In]({{site.baseurl}}/images/linked.svg)](https://uk.linkedin.com/pub/paul-kent/45/755/b88)
-[![Twitter]({{site.baseurl}}/images/twitter.svg)](https://twitter.com/paulkennethkent)
+<div class="icon-insta">
+</div>
+<div class="icon-github">
+</div>
+<div class="icon-twitter">
+</div>
+<div class="icon-linked">
+</div>
