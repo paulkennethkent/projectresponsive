@@ -21,7 +21,8 @@ header {
 body {
   height: 100%;
   // font-family: $font-main;
-   margin: 0 0 250px; /* bottom = footer height */
+  margin: 0 0 250px; /* bottom = footer height */
+  overflow-x: hidden; 
 }
 
 main {
@@ -38,7 +39,10 @@ footer {
   width: 100%;
   height: 250px;
   border-top: 2px solid $lightgrey;
-  color: white;
+  color: $white;
+  svg {
+    max-height: 100%;
+  }
   ul {
 /*     color: #fff; */
   }
