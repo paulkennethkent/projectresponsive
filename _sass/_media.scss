@@ -1,7 +1,7 @@
 .mega {
   margin-left:-100%;
   margin-right: -100%;
-  border: 2px solid $green;
+  border-bottom: 1px solid $green;
   .hero {
     min-height: 401px;
     background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
@@ -18,27 +18,35 @@
   @include container(90%);
 }
 
-.content {
-  @include span(12);
-  margin: 5px 0 0 0;
-}
-
-// homepage
-
-.home-art {
-  @include span(5.5);
-}
-
 .home-proj {
-   @include push(1);
-  @include span(5.5);
-
   img {
     border: 0.1em solid black;
     max-width: 100%;
     max-height: 100%;
   }
 }
+
+
+// homepage
+
+@include breakpoint($mobile) {
+  .content {
+    @include span(12);
+    margin: 5px 0 0 0;
+  }
+
+  .home-art {
+    @include span(5.5);
+  }
+
+  .home-proj {
+     @include push(1);
+    @include span(5.5);
+
+  }
+
+}
+
 
 // blog home
 
@@ -85,20 +93,25 @@
 
 // project styles
 
+.project-card {
+  margin: 10px;
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+@include breakpoint($mobile) {
 .project-list {
   display:flex;
 }
 
 .project-card {
  @include span(4);
- margin: 10px;
- img {
-   max-width: 100%;
-   max-height: 100%;
- }
+
 }
 
-
+}
 /* blockquote styles */
 
 blockquote {

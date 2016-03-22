@@ -7,9 +7,17 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+
+
+header {
+    border-bottom: 3px solid $green;
+}
+
+// header
+@include breakpoint($mobile) { }
 header {
   @include span(12);
-  border-bottom: 1px solid $green;
   position: static;
   .branding {
     @include span(6);
@@ -18,11 +26,15 @@ header {
     @include span(6 at 6);
   }
 }
+
+
+
+
 body {
   height: 100%;
   // font-family: $font-main;
   margin: 0 0 250px; /* bottom = footer height */
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 main {
