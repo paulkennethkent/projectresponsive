@@ -8,6 +8,7 @@ $high-tide: max-width 500px;
     }
   }
 
+@include breakpoint($mobile) {
 .fixed-top-nav {
   vertical-align: middle;
   list-style: none;
@@ -23,6 +24,7 @@ $high-tide: max-width 500px;
 
     }
   }
+}
 }
 
 .branding {

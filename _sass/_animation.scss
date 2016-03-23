@@ -71,3 +71,98 @@
   }
 
 }
+
+
+//burger icon
+// Burger menu button
+.burger {
+	$width: 28px;
+	$thickness: 4px;
+  display: block;
+
+	border: 0;
+	background: none;
+	outline: 0;
+	padding: 0;
+	cursor: pointer;
+
+	border-bottom: $thickness solid currentColor;
+	width: $width;
+
+	transition: border-bottom 1s ease-in-out;
+	-webkit-transition: border-bottom 1s ease-in-out;
+
+	// Fix for extra space in Firefox
+	&::-moz-focus-inner {
+		border: 0;
+		padding: 0;
+	}
+
+	&:before {
+		content: "";
+		display: block;
+		border-bottom: $thickness solid currentColor;
+		width: 100%;
+		margin-bottom: 5px;
+		transition: transform 0.5s ease-in-out;
+		-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		border-bottom: $thickness solid currentColor;
+		width: 100%;
+		margin-bottom: 5px;
+		transition: transform 0.5s ease-in-out;
+		-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	}
+
+	&.open {
+		border-bottom: $thickness solid transparent;
+		transition: border-bottom 0.8s ease-in-out;
+		-webkit-transition: border-bottom 0.8s ease-in-out;
+
+		&:before {
+			transform: rotate(-405deg) translateY(1px) translateX(-3px);
+			-webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+			transition: transform 0.5s ease-in-out;
+			-webkit-transition: -webkit-transform 0.5s ease-in-out;
+		}
+
+		&:after {
+			transform: rotate(405deg) translateY(-4px) translateX(-5px);
+			-webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+			transition: transform 0.5s ease-in-out;
+			-webkit-transition: -webkit-transform 0.5s ease-in-out;
+		}
+	}
+}
+
+@include breakpoint($mobile) {
+.burger {
+display: none;
+}
+}
+
+// * * * Demo * * *
+/* body {
+  background-color: rosybrown;
+  text-align: center;
+  font-family: 'Cutive Mono', ;
+  color: white;
+  line-height: 25px;
+}
+
+a {
+  color: inherit;
+}
+
+.burger {
+  color: white;
+}
+
+small {
+  font-size: 10px;
+}
+ */
