@@ -7,15 +7,11 @@ html {
   position: relative;
   min-height: 100%;
 }
-
-
-
 header {
-    border-bottom: 3px solid $green;
+  border-bottom: 3px solid $green;
 }
-
 // header
-@include breakpoint($mobile) { }
+@include breakpoint($mobile) {}
 header {
   @include span(12);
   position: static;
@@ -26,22 +22,16 @@ header {
     @include span(6 at 6);
   }
 }
-
-
-
-
 body {
   height: 100%;
   // font-family: $font-main;
-  margin: 0 0 250px; /* bottom = footer height */
+  margin: 0 0 250px;
+  /* bottom = footer height */
   overflow-x: hidden;
 }
-
 main {
   @include span(12);
 }
-
-
 footer {
   @include span(12);
   background-color: $green;
@@ -56,7 +46,7 @@ footer {
     max-height: 100%;
   }
   ul {
-/*     color: #fff; */
+    /*     color: #fff; */
   }
   li {
     display: inline;

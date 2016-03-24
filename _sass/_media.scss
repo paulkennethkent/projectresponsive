@@ -1,5 +1,5 @@
 .mega {
-  margin-left:-100%;
+  margin-left: -100%;
   margin-right: -100%;
   border-bottom: 1px solid $green;
   .hero {
@@ -10,14 +10,11 @@
     height: 100%;
     background-size: 20px 20px;
     perspective: 1000px;
-    }
   }
-
-
+}
 .container {
   @include container(90%);
 }
-
 .home-proj {
   img {
     border: 0.1em solid black;
@@ -25,36 +22,25 @@
     max-height: 100%;
   }
 }
-
-
 // homepage
-
 @include breakpoint($mobile) {
   .content {
     @include span(12);
-    margin: 5px 0 0 0;
+    margin: 5px 0 0;
   }
-
   .home-art {
     @include span(5.5);
   }
-
   .home-proj {
-     @include push(1);
+    @include push(1);
     @include span(5.5);
-
   }
-
 }
-
-
 // blog home
-
 .blog-list {
   @include span(12);
   padding: 5px;
 }
-
 .blog-post {
   padding: 5px;
 }
@@ -63,36 +49,26 @@
   @include span(3);
   border-right: 1px solid $green;
 }
-
 // post styles
-
-.post-title {
-
-}
-
+.post-title {}
 .post-meta {
- color: white;
- padding: 0.2em;
- color: $quiet-color;
+  color: white;
+  padding: 0.2em;
+  color: $quiet-color;
 }
-
 .post-link {
   text-decoration: none;
   @extend .link;
 }
-
 .post-content {
-  margin: 1em 0 0 0;
+  margin: 1em 0 0;
 }
-
 .post-readmore {
   @extend .link;
   text-align: right;
   font-size: 0.7em;
 }
-
 // project styles
-
 .project-card {
   margin: 10px;
   img {
@@ -100,20 +76,15 @@
     max-height: 100%;
   }
 }
-
 @include breakpoint($mobile) {
-.project-list {
-  display:flex;
-}
-
-.project-card {
- @include span(4);
-
-}
-
+  .project-list {
+    display: flex;
+  }
+  .project-card {
+    @include span(4);
+  }
 }
 /* blockquote styles */
-
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -132,27 +103,22 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
-
 // tag cloud
-
 .tagcloud {
-
-  padding-left:5px;
+  padding-left: 5px;
   li {
-  list-style: none;
-  margin-bottom: 5px;
-  font-size: 0.8em;
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 0.8em;
   }
 }
-
 /* code styles  */
-
 pre {
   background-color: black;
   padding: 10px;
-  margin:5px 40px;
+  margin: 5px 40px;
   border-left: 10px solid $green;
   code {
-  color: white
+    color: white;
   }
 }

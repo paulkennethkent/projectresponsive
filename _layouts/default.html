@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
 
-  <body>
+<body>
 
-    {% include header.html %}
+  {% include header.html %}
   <div class="container">
     <main>
-        {{ content }}
+      {{ content }}
     </main>
 
   </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+  <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+  <script src="{{ " /js/script.js " | prepend: site.baseurl }}"></script>
+
+</body>
 
 </html>

@@ -1,46 +1,47 @@
 $high-tide: max-width 500px;
 .trigger {
-    line-height: $header-height;
-    height: $header-height;
-    margin: 0px auto;
-    .active {
-      border-bottom: 3px solid $green;
-    }
+  line-height: $header-height;
+  height: $header-height;
+  margin: 0 auto;
+  .active {
+    border-bottom: 3px solid $green;
   }
-
-@include breakpoint($mobile) {
+}
 .fixed-top-nav {
-  vertical-align: middle;
-  list-style: none;
-  white-space: nowrap;
-  text-align: right;
-  li {
-    display: inline-block;
-    padding:0 5px 0 5px;
-    // font-family: $heading-font-family;
-    a {
-      text-decoration: none;
-      font-weight: bold;
-
+  overflow: hidden;
+  max-height: 0;
+}
+@include breakpoint($mobile) {
+  .fixed-top-nav {
+    vertical-align: middle;
+    list-style: none;
+    white-space: nowrap;
+    text-align: right;
+    overflow: visible;
+    li {
+      display: inline-block;
+      padding: 0 5px;
+      // font-family: $heading-font-family;
+      a {
+        text-decoration: none;
+        font-weight: bold;
+      }
     }
   }
 }
-}
-
 .branding {
   height: $header-height;
   line-height: $header-height;
   font-family: $heading-font-family;
   font-size: 1.2vw;
   white-space: nowrap;
-  float:left;
+  float: left;
   svg {
-    float:left;
+    float: left;
     height: 50px;
     height: 50px;
     line-height: $header-height;
     margin: 5px;
   }
-  @include breakpoint($high-tide) {
-  }
+  @include breakpoint($high-tide) {}
 }

@@ -1,28 +1,27 @@
 .icon {
-    background-color: $white;
-    width: 32px;
-    height: 32px;
-    display: inline-block;
-    margin: 3px;
+  background-color: $white;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin: 3px;
 }
-
 .icon-insta {
   @extend .icon;
-  -webkit-mask-image: url(../images/insta.svg);
-  mask-image: url(../images/insta.svg) no-repeat 50% 50%;
+  -webkit-mask-image: url("../images/insta.svg");
+  mask-image: url("../images/insta.svg") no-repeat 50% 50%;
 }
 .icon-twitter {
   @extend .icon;
-  -webkit-mask-image: url(../images/twitter.svg);
-  mask-image: url(../images/twitter.svg) no-repeat 50% 50%;
+  -webkit-mask-image: url("../images/twitter.svg");
+  mask-image: url("../images/twitter.svg") no-repeat 50% 50%;
 }
 .icon-linked {
   @extend .icon;
-  -webkit-mask-image: url(../images/linked.svg);
-  mask-image: url(../images/linked.svg) no-repeat 50% 50%;
+  -webkit-mask-image: url("../images/linked.svg");
+  mask-image: url("../images/linked.svg") no-repeat 50% 50%;
 }
 .icon-github {
   @extend .icon;
-  -webkit-mask-image: url(../images/github.svg);
-  mask-image: url(../images/github.svg) no-repeat 50% 50%;
+  -webkit-mask-image: url("../images/github.svg");
+  mask-image: url("../images/github.svg") no-repeat 50% 50%;
 }
