@@ -59,6 +59,7 @@
 //burger icon
 // Burger menu button
 .burger {
+  height: $header-height;
   $width: 28px;
   $thickness: 4px;
   display: block;
@@ -67,10 +68,10 @@
   outline: 0;
   padding: 0;
   cursor: pointer;
-  border-bottom: $thickness solid currentColor;
   width: $width;
   transition: border-bottom 1s ease-in-out;
   -webkit-transition: border-bottom 1s ease-in-out;
+  float: right;
   // Fix for extra space in Firefox
   &::-moz-focus-inner {
     border: 0;
@@ -117,24 +118,3 @@
     display: none;
   }
 }
-// * * * Demo * * *
-/* body {
-  background-color: rosybrown;
-  text-align: center;
-  font-family: 'Cutive Mono', ;
-  color: white;
-  line-height: 25px;
-}
-
-a {
-  color: inherit;
-}
-
-.burger {
-  color: white;
-}
-
-small {
-  font-size: 10px;
-}
- */

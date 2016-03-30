@@ -7,5 +7,6 @@ excerpt_separator: <!-- more -->
 permalink: '/projects/:path'
 ---
 ![Browser Matrix]({{site.baseurl}}/images/browser-matrix.png)<!-- more -->
+![Browser Matrix]({{site.baseurl}}/images/responsive-browser-matrix.png)
 <p>I am a post la la la wooooooooo 1st</p>
 <p>I am a post la la la wooooooooo 2nd paragraphy</p>

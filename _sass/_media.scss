@@ -12,9 +12,17 @@
     perspective: 1000px;
   }
 }
+//full page container
 .container {
   @include container(90%);
 }
+
+//main
+main {
+  margin-left: 1em; 
+}
+
+
 .home-proj {
   img {
     border: 0.1em solid black;
@@ -62,6 +70,10 @@
 }
 .post-content {
   margin: 1em 0 0;
+  img {
+    height: 30%;
+    width: 30%;
+  }
 }
 .post-readmore {
   @extend .link;

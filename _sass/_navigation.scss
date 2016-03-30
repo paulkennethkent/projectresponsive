@@ -33,7 +33,10 @@ $high-tide: max-width 500px;
   height: $header-height;
   line-height: $header-height;
   font-family: $heading-font-family;
-  font-size: 1.2vw;
+  .branding-title {
+    display: none;
+  }
+
   white-space: nowrap;
   float: left;
   svg {
@@ -43,5 +46,10 @@ $high-tide: max-width 500px;
     line-height: $header-height;
     margin: 5px;
   }
-  @include breakpoint($high-tide) {}
+  @include breakpoint($mobile) {
+    .branding-title {
+        font-size: 2em;
+        display: block;
+    }
+  }
 }
