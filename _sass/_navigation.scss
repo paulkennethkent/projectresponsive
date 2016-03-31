@@ -1,4 +1,3 @@
-$high-tide: max-width 500px;
 .trigger {
   line-height: $header-height;
   height: $header-height;
@@ -10,6 +9,12 @@ $high-tide: max-width 500px;
 .fixed-top-nav {
   overflow: hidden;
   max-height: 0;
+  z-index: 1;
+  border: 0 2 2 2;
+  border-color: $green;
+  background: $white;
+
+
 }
 @include breakpoint($mobile) {
   .fixed-top-nav {
@@ -18,6 +23,7 @@ $high-tide: max-width 500px;
     white-space: nowrap;
     text-align: right;
     overflow: visible;
+    background: $white;
     li {
       display: inline-block;
       padding: 0 5px;
