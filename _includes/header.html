@@ -106,7 +106,7 @@
     </div>
 
     <div class="trigger perm">
-      <button class="burger"></button>
+      <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
       <ul class="fixed-top-nav">
         {% assign pages = site.pages | sort : "weight" %}
         {% for my_page in pages %}
