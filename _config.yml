@@ -28,5 +28,3 @@ permalink: /blog/:title
 gems:
 - susy
 - breakpoint
-- normalize-scss
-- jekyll-paginate
