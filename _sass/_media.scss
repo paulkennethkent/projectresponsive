@@ -1,17 +1,29 @@
-.mega {
-  margin-left: -100%;
-  margin-right: -100%;
-  border-bottom: 1px solid $green;
-  .hero {
-    min-height: 401px;
-    background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
-    background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
-    background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
-    height: 100%;
-    background-size: 20px 20px;
-    perspective: 1000px;
+.hero {
+  img {
+    display: none;
   }
 }
+
+@include breakpoint($mobile) {
+  .mega {
+    margin-left: -100%;
+    margin-right: -100%;
+    border-bottom: 1px solid $green;
+    .hero {
+      min-height: 401px;
+      background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
+      background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
+      background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
+      height: 100%;
+      background-size: 20px 20px;
+      perspective: 1000px;
+      img {
+        display: block;
+      }
+    }
+  }
+};
+
 //full page container
 .container {
   @include container(90%);
@@ -19,7 +31,7 @@
 
 //main
 main {
-  margin-left: 1em; 
+  margin-left: 1em;
 }
 
 

@@ -1,3 +1,6 @@
+
+// HERO images
+@include breakpoint($mobile) {
 .sketch {
   animation: fade;
   animation-duration: 4s;
@@ -19,6 +22,8 @@
   left: 50%;
   position: absolute;
 }
+}
+// Hero animations
 @keyframes slide {
   0% {
     transform: translateY(0px);
@@ -56,23 +61,6 @@
     opacity: 1;
   }
 }
-//burger icon
-// Burger menu button
-/* .burger {
-  height: $header-height;
-  $width: 28px;
-  $thickness: 4px;
-  display: block;
-  border: 0;
-  background: none;
-  outline: 0;
-  padding: 0;
-  cursor: pointer;
-  width: $width;
-  transition: border-bottom 1s ease-in-out;
-  -webkit-transition: border-bottom 1s ease-in-out;
-
-*/
 
 // Burger menu button
 $burger--thickness: 4px;
@@ -159,4 +147,19 @@ $navigation__transition: max-height 0.5s ease-in-out;
 .burger-check:checked ~ .fixed-top-nav {
   max-height: 500px;
   transition: $navigation__transition;
+  border-width: 0px 2px 2px 2px;
+  border-style: solid;
+  border-color: $green;
+  background-color: $green;
+  list-style: none;
+  a {
+  color: $white;
+}
+}
+
+@include breakpoint($mobile) {
+.burger-check:checked ~ .fixed-top-nav {
+  border-style: none;
+  background-color: $white;
+}
 }
