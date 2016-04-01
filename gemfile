@@ -8,3 +8,4 @@ gem 'github-pages', versions['github-pages']
 gem 'susy'
 gem 'breakpoint'
 gem 'normalize-scss'
+gem 'jgd'
