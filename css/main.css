@@ -167,7 +167,7 @@ p {
 .fixed-top-nav {
   overflow: hidden;
   max-height: 0;
-  z-index: 1; }
+  position: relative; }
 
 @media (min-width: 800px) {
   .fixed-top-nav {
@@ -281,8 +281,19 @@ footer {
       color: white;
       text-decoration: none; }
 
-.hero img {
-  display: none; }
+.mega {
+  margin-left: -100%;
+  margin-right: -100%;
+  border-bottom: 1px solid #036307; }
+  .mega .hero {
+    min-height: 401px;
+    background-image: -webkit-linear-gradient(left, #D3D3D3 1px, transparent 1px), -webkit-linear-gradient(#D3D3D3 1px, transparent 0.2em);
+    background-image: -o-linear-gradient(left, #D3D3D3 1px, transparent 1px), -o-linear-gradient(#D3D3D3 1px, transparent 1px);
+    background-image: linear-gradient(to right, #D3D3D3 1px, transparent 1px), linear-gradient(#D3D3D3 1px, transparent 1px);
+    height: 100%;
+    background-size: 20px 20px; }
+    .mega .hero img {
+      display: none; }
 
 @media (min-width: 800px) {
   .mega {
@@ -488,6 +499,7 @@ pre {
   right: 10%;
   top: 29px;
   position: absolute;
+  z-index: 1;
   display: inline-block;
   border: 0;
   background: none;
@@ -557,7 +569,9 @@ pre {
 @media (min-width: 800px) {
   .burger-check:checked ~ .fixed-top-nav {
     border-style: none;
-    background-color: #fff; } }
+    background-color: #fff; }
+    .burger-check:checked ~ .fixed-top-nav a {
+      color: #333; } }
 .icon, .icon-insta, .icon-twitter, .icon-linked, .icon-github {
   background-color: #fff;
   width: 32px;
