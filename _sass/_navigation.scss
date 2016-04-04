@@ -9,8 +9,7 @@
 .fixed-top-nav {
   overflow: hidden;
   max-height: 0;
-  z-index: 1;
-
+  position: relative;
 }
 @include breakpoint($mobile) {
   .fixed-top-nav {

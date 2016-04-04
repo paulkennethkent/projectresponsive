@@ -69,6 +69,7 @@ $burger--thickness: 4px;
   right: 10%;
   top: 29px;
   position:absolute;
+  z-index: 1;
 	display: inline-block;
   border: 0;
 	background: none;
@@ -161,5 +162,8 @@ $navigation__transition: max-height 0.5s ease-in-out;
 .burger-check:checked ~ .fixed-top-nav {
   border-style: none;
   background-color: $white;
+  a {
+    color: $fontblack;
+  }
 }
 }
