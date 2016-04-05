@@ -1,59 +1,81 @@
+.mega {
+  margin-left: -100%;
+  margin-right: -100%;
+  border-bottom: 1px solid $green;
+  .hero {
+    min-height: 401px;
+    background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
+    background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
+    background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
+    height: 100%;
+    background-size: 20px 20px;
+    .hero-image {
+			display: none;
+    }
 
-// HERO images
+  }
+}
 @include breakpoint($mobile) {
-.sketch {
-  animation: fade;
-  animation-duration: 4s;
-  max-width: 20%;
-  max-height: 20%;
-  display: block;
-  padding: 50px;
-  margin: 0 auto;
-  position: relative;
+  .mega {
+    margin-left: -100%;
+    margin-right: -100%;
+    border-bottom: 1px solid $green;
+    .hero {
+      min-height: 401px;
+      background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
+      background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
+      background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
+      height: 100%;
+      background-size: 20px 20px;
+      perspective: 1000px;
+			.hero-image {
+				display: block;
+			}
+			.hero-left {
+				@include span(5.75);
+				min-height: 401px;
+				position: relative;
+				img {
+					top: 30px;
+					right: 0px;
+					position: absolute;
+					height: 330px;
+				}
+			}
+			.hero-right {
+				min-height: 401px;
+				position: relative;
+				@include push(0.5);
+				@include span(5.75);
+				img {
+					top: 30px;
+					left: 0px;
+					position: absolute;
+					height: 330px;
+				}
+			}
+    }
+  }
+}; // HERO images
+@include breakpoint($mobile) {
+  .sketch {
+		animation: fadedown;
+		animation-duration: 2s;
+  }
+  .full {
+    animation: fadeup;
+    animation-duration: 4s;
+  }
 }
-.pencil {
-  animation-name: slide;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-  max-width: 100%;
-  max-height: 100%;
-  top: 50%;
-  left: 20%;
-  position: absolute;
-}
-}
-// Hero animations
-@keyframes slide {
+@keyframes fadedown {
   0% {
-    transform: translateY(0px);
-  }
-  10% {
-    transform: translateX(10vw) rotate(-0.1turn);
-  }
-  20% {
-    transform: translateX(20vw) translateY(40px) rotate(0.1turn);
-  }
-  40% {
-    transform: translateX(40vw) translateY(10px) rotate(-0.1turn);
-  }
-  50% {
-    transform: translateX(50vw) translateY(-10px) rotate(0.1turn);
-  }
-  60% {
-    transform: translateX(60vw) translateY(20px) rotate(-0.1turn);
-  }
-  70% {
-    transform: translateX(70vw) translateY(-30px) rotate(0.1turn);
-  }
-  90% {
-    transform: translateX(90vw) translateY(-20px) rotate(-0.1turn);
+    opacity: 1;
   }
   100% {
-    transform: translateX(120vw) translateY(10px);
+    opacity: 0;
   }
 }
-@keyframes fade {
+@keyframes fadeup {
   0% {
     opacity: 0;
   }
@@ -61,71 +83,66 @@
     opacity: 1;
   }
 }
-
+//full page container
+.container {
+  @include container(90%);
+}
 // Burger menu button
 $burger--thickness: 4px;
 .burger {
-	$width: 28px;
+  $width: 28px;
   right: 10%;
   top: 29px;
-  position:absolute;
+  position: absolute;
   z-index: 1;
-	display: inline-block;
+  display: inline-block;
   border: 0;
-	background: none;
-	outline: 0;
-	padding: 0;
-	cursor: pointer;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
   align-items: right;
-	border-bottom: $burger--thickness solid currentColor;
-	width: $width;
+  border-bottom: $burger--thickness solid currentColor;
+  width: $width;
   transition: border-bottom 1s ease-in-out;
-	-webkit-transition: border-bottom 1s ease-in-out;
-
-
-	// Fix for extra space in Firefox
-	&::-moz-focus-inner {
-		border: 0;
-		padding: 0;
-	}
-
-	&:before {
-		content: "";
-		display: block;
-		border-bottom: $burger--thickness solid currentColor;
-		width: 100%;
-		margin-bottom: 5px;
-		transition: transform 0.5s ease-in-out;
-		-webkit-transition: -webkit-transform 0.5s ease-in-out;
-	}
-
-	&:after {
-		content: "";
-		display: block;
-		border-bottom: $burger--thickness solid currentColor;
-		width: 100%;
-		margin-bottom: 5px;
-		transition: transform 0.5s ease-in-out;
-		-webkit-transition: -webkit-transform 0.5s ease-in-out;
-	}
+  -webkit-transition: border-bottom 1s ease-in-out;
+  // Fix for extra space in Firefox
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  &:before {
+    content: "";
+    display: block;
+    border-bottom: $burger--thickness solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
+  &:after {
+    content: "";
+    display: block;
+    border-bottom: $burger--thickness solid currentColor;
+    width: 100%;
+    margin-bottom: 5px;
+    transition: transform 0.5s ease-in-out;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  }
 }
-
 .burger-check {
   display: none;
 }
-
 .burger-check:checked ~ .burger {
   border-bottom: $burger--thickness solid transparent;
   transition: border-bottom 0.8s ease-in-out;
   -webkit-transition: border-bottom 0.8s ease-in-out;
-
   &:before {
     transform: rotate(-405deg) translateY(1px) translateX(-3px);
     -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
     transition: transform 0.5s ease-in-out;
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
-
   &:after {
     transform: rotate(405deg) translateY(-4px) translateX(-5px);
     -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
@@ -140,30 +157,27 @@ $burger--thickness: 4px;
 }
 // * * * Navigation * * *
 $navigation__transition: max-height 0.5s ease-in-out;
-
 .fixed-top-nav {
   transition: $navigation__transition;
 }
-
 .burger-check:checked ~ .fixed-top-nav {
   max-height: 500px;
   transition: $navigation__transition;
-  border-width: 0px 2px 2px 2px;
+  border-width: 0 2px 2px 2px;
   border-style: solid;
   border-color: $green;
   background-color: $green;
   list-style: none;
   a {
-  color: $white;
-}
-}
-
-@include breakpoint($mobile) {
-.burger-check:checked ~ .fixed-top-nav {
-  border-style: none;
-  background-color: $white;
-  a {
-    color: $fontblack;
+    color: $white;
   }
 }
+@include breakpoint($mobile) {
+  .burger-check:checked ~ .fixed-top-nav {
+    border-style: none;
+    background-color: $white;
+    a {
+      color: $fontblack;
+    }
+  }
 }
