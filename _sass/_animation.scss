@@ -32,26 +32,27 @@
 				display: block;
 			}
 			.hero-left {
-				@include span(5.75);
+				@include span(6);
 				min-height: 401px;
 				position: relative;
 				img {
-					top: 30px;
+					top: $hero-image-top;
 					right: 0px;
 					position: absolute;
-					height: 330px;
+					height: $hero-image-height;
+          margin: $hero-image-margin;
 				}
 			}
 			.hero-right {
 				min-height: 401px;
 				position: relative;
-				@include push(0.5);
-				@include span(5.75);
+				@include span(6);
 				img {
-					top: 30px;
+					top: $hero-image-top;
 					left: 0px;
 					position: absolute;
-					height: 330px;
+					height: $hero-image-height;
+          margin: $hero-image-margin;
 				}
 			}
     }
