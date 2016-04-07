@@ -421,7 +421,23 @@ pre {
     background-image: linear-gradient(to right, #D3D3D3 1px, transparent 1px), linear-gradient(#D3D3D3 1px, transparent 1px);
     height: 100%;
     background-size: 20px 20px; }
-    .mega .hero .hero-image {
+    .mega .hero .hero-left {
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      float: left;
+      padding-left: 0.83333%;
+      padding-right: 0.83333%;
+      min-height: 401px;
+      position: relative; }
+      .mega .hero .hero-left img {
+        top: 30px;
+        position: absolute;
+        right: 33%;
+        height: 270px;
+        margin: 15px; }
+    .mega .hero .hero-right {
       display: none; }
 
 @media (min-width: 800px) {
@@ -443,7 +459,7 @@ pre {
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        width: 47.91667%;
+        width: 50%;
         float: left;
         padding-left: 0.83333%;
         padding-right: 0.83333%;
@@ -453,15 +469,16 @@ pre {
           top: 30px;
           right: 0px;
           position: absolute;
-          height: 330px; }
+          height: 270px;
+          margin: 15px; }
       .mega .hero .hero-right {
         min-height: 401px;
         position: relative;
-        margin-left: 4.16667%;
+        display: block;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        width: 47.91667%;
+        width: 50%;
         float: left;
         padding-left: 0.83333%;
         padding-right: 0.83333%; }
@@ -469,7 +486,8 @@ pre {
           top: 30px;
           left: 0px;
           position: absolute;
-          height: 330px; } }
+          height: 270px;
+          margin: 15px; } }
 @media (min-width: 800px) {
   .sketch {
     animation: fadedown;
