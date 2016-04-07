@@ -10,9 +10,23 @@
     height: 100%;
     background-size: 20px 20px;
     .hero-image {
-			display: none;
-    }
 
+    }
+    .hero-left {
+      @include span(12);
+      min-height: 401px;
+      position: relative;
+      img {
+        top: $hero-image-top;
+        position: absolute;
+        right: 33%;
+        height: $hero-image-height;
+        margin: $hero-image-margin;
+      }
+    }
+    .hero-right {
+      display: none;
+      }
   }
 }
 @include breakpoint($mobile) {
@@ -46,6 +60,7 @@
 			.hero-right {
 				min-height: 401px;
 				position: relative;
+        display: block;
 				@include span(6);
 				img {
 					top: $hero-image-top;
