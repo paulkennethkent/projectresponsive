@@ -44,9 +44,12 @@
       perspective: 1000px;
 			.hero-image {
 				display: block;
+        width: 100vw;
+        margin: 0 auto;
 			}
 			.hero-left {
-				@include span(6);
+				width: 40vw;
+        left: 0vw;
 				min-height: 401px;
 				position: relative;
 				img {
@@ -61,7 +64,8 @@
 				min-height: 401px;
 				position: relative;
         display: block;
-				@include span(6);
+				width: 40vw;
+        margin-left: 50vw;
 				img {
 					top: $hero-image-top;
 					left: 0px;
