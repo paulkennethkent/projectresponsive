@@ -30,6 +30,9 @@ main {
 }
 .blog-post {
   padding: 5px;
+  border: 1px solid $lightgrey;
+  margin-bottom: 10px;
+  background-color: $white;
 }
 // sidebar
 .sidebar {
@@ -54,6 +57,10 @@ main {
     width: 30%;
   }
 }
+.post-back {
+  float: right;
+}
+
 .post-readmore {
   @extend .link;
   text-align: right;

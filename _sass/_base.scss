@@ -9,6 +9,7 @@ html {
 }
 header {
   border-bottom: 3px solid $green;
+  background-color: $white;
 }
 // header
 @include breakpoint($mobile) {}
@@ -28,6 +29,7 @@ body {
   margin: 0 0 250px;
   /* bottom = footer height */
   overflow-x: hidden;
+  background-color: #F8F8FF;
 }
 main {
   @include span(12);
