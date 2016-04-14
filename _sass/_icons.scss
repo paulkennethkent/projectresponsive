@@ -1,27 +1,32 @@
-.icon {
+.icon-white {
   background-color: $white;
   width: 32px;
   height: 32px;
   display: inline-block;
   margin: 3px;
+  position: relative;
 }
-.icon-insta {
-  @extend .icon;
+
+.icon-black {
+  background-color: $fontblack;
+  width: 32px;
+  height: 32px;
+  margin-top: 10px;
+  position: relative
+}
+.insta {
   -webkit-mask-image: url("../images/insta.svg");
   mask-image: url("../images/insta.svg") no-repeat 50% 50%;
 }
-.icon-twitter {
-  @extend .icon;
+.twitter {
   -webkit-mask-image: url("../images/twitter.svg");
   mask-image: url("../images/twitter.svg") no-repeat 50% 50%;
 }
-.icon-linked {
-  @extend .icon;
+.linkedin {
   -webkit-mask-image: url("../images/linked.svg");
   mask-image: url("../images/linked.svg") no-repeat 50% 50%;
 }
-.icon-github {
-  @extend .icon;
+.github {
   -webkit-mask-image: url("../images/github.svg");
   mask-image: url("../images/github.svg") no-repeat 50% 50%;
 }
