@@ -5,8 +5,6 @@ permalink: /contact/
 weight: 6
 ---
 If you would like to contact me about my current projects or the possibility of a new project then please do.
-
-<a href="https://www.instagram.com/pkkent/?hl=en">
 <ul class="contact-social">
 <li>
   <a href="https://www.instagram.com/pkkent/?hl=en">
@@ -36,4 +34,12 @@ If you would like to contact me about my current projects or the possibility of 
 </div>
   </a>
 </li>
+
+<li>
+<a href="https://uk.linkedin.com/in/paul-kent-b8875545">
+<div class="icon-black email"><span class="link-spanner"></span>
+</div>
+  </a>
+</li>
+
 </ul>

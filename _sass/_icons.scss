@@ -1,18 +1,25 @@
+.icon {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 3px;
+}
+
 .icon-white {
+  @extend .icon;
   background-color: $white;
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-  margin: 3px;
-  position: relative;
+  &:hover {
+    background-color: $fontblack;
+  }
 }
 
 .icon-black {
+  @extend .icon;
   background-color: $fontblack;
-  width: 32px;
-  height: 32px;
-  margin-top: 10px;
-  position: relative
+  &:hover {
+    background-color: $green;
+  }
 }
 .insta {
   -webkit-mask-image: url("../images/insta.svg");
@@ -29,4 +36,8 @@
 .github {
   -webkit-mask-image: url("../images/github.svg");
   mask-image: url("../images/github.svg") no-repeat 50% 50%;
+}
+.email {
+  -webkit-mask-image: url("../images/mail.svg");
+  mask-image: url("../images/mail.svg") no-repeat 50% 50%;
 }
