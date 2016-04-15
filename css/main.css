@@ -420,7 +420,10 @@ pre {
 
 /* social media icons  */
 .contact-social {
-  list-style-type: none; }
+  list-style: none;
+  padding: 0; }
+  .contact-social li {
+    display: inline-block; }
 
 /* link spannar  */
 .link-spanner {
@@ -609,20 +612,22 @@ pre {
           position: absolute;
           height: 270px;
           margin: 15px; } }
-.icon-white {
-  background-color: #fff;
+.icon, .icon-white, .icon-black {
+  position: relative;
   width: 32px;
   height: 32px;
   display: inline-block;
-  margin: 3px;
-  position: relative; }
+  margin: 3px; }
+
+.icon-white {
+  background-color: #fff; }
+  .icon-white:hover {
+    background-color: #333; }
 
 .icon-black {
-  background-color: #333;
-  width: 32px;
-  height: 32px;
-  margin-top: 10px;
-  position: relative; }
+  background-color: #333; }
+  .icon-black:hover {
+    background-color: #036307; }
 
 .insta {
   -webkit-mask-image: url("../images/insta.svg");
@@ -639,3 +644,7 @@ pre {
 .github {
   -webkit-mask-image: url("../images/github.svg");
   mask-image: url("../images/github.svg") no-repeat 50% 50%; }
+
+.email {
+  -webkit-mask-image: url("../images/mail.svg");
+  mask-image: url("../images/mail.svg") no-repeat 50% 50%; }
