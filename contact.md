@@ -11,6 +11,8 @@ If you would like to contact me about my current projects or the possibility of 
 <div class="icon-black insta">
   <span class="link-spanner"></span>
 </div>
+  </a>
+  paulkennethkent
 </li>
 
 <li>
@@ -18,6 +20,7 @@ If you would like to contact me about my current projects or the possibility of 
 <div class="icon-black github"><span class="link-spanner"></span>
 </div>
   </a>
+  paulkennethkent
 </li>
 
 
@@ -26,6 +29,7 @@ If you would like to contact me about my current projects or the possibility of 
 <div class="icon-black twitter"><span class="link-spanner"></span>
 </div>
   </a>
+  paulkennethkent
 </li>
 
 <li>
@@ -33,13 +37,15 @@ If you would like to contact me about my current projects or the possibility of 
 <div class="icon-black linkedin"><span class="link-spanner"></span>
 </div>
   </a>
+  paul kent
 </li>
 
 <li>
-<a href="https://uk.linkedin.com/in/paul-kent-b8875545">
+<a href="mailto:paul@projectresponsive.com">
 <div class="icon-black email"><span class="link-spanner"></span>
 </div>
   </a>
+  paul@projectresponsive.com
 </li>
 
 </ul>
