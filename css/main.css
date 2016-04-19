@@ -239,7 +239,7 @@ header {
 
 body {
   height: 100%;
-  margin: 0 0 250px;
+  margin: 0 0 105px;
   /* bottom = footer height */
   overflow-x: hidden;
   background-color: #F8F8FF; }
@@ -266,7 +266,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 250px;
+  height: 105px;
   border-top: 2px solid #e6e6e6;
   color: #fff; }
   footer svg {
@@ -421,9 +421,19 @@ pre {
 /* social media icons  */
 .contact-social {
   list-style: none;
-  padding: 0; }
-  .contact-social li {
-    display: inline-block; }
+  padding: 0;
+  width: 40%; }
+
+/* footer social media icons */
+.footer-social {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
+
+.footer-nav {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center; }
 
 /* link spannar  */
 .link-spanner {
@@ -646,5 +656,5 @@ pre {
   mask-image: url("../images/github.svg") no-repeat 50% 50%; }
 
 .email {
-  -webkit-mask-image: url("../images/mail.svg");
-  mask-image: url("../images/mail.svg") no-repeat 50% 50%; }
+  -webkit-mask-image: url("../images/email.svg");
+  mask-image: url("../images/email.svg") no-repeat 50% 50%; }
