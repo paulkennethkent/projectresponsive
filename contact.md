@@ -12,40 +12,35 @@ If you would like to contact me about my current projects or the possibility of 
   <span class="link-spanner"></span>
 </div>
   </a>
-  paulkennethkent
 </li>
-
+  Instagram - paulkennethkent
 <li>
 <a href="https://github.com/paulkennethkent">
 <div class="icon-black github"><span class="link-spanner"></span>
 </div>
   </a>
-  paulkennethkent
 </li>
-
+Github - paulkennethkent
 
 <li>
 <a href="https://twitter.com/paulkennethkent">
 <div class="icon-black twitter"><span class="link-spanner"></span>
 </div>
   </a>
-  paulkennethkent
 </li>
-
+Twitter - paulkennethkent
 <li>
 <a href="https://uk.linkedin.com/in/paul-kent-b8875545">
 <div class="icon-black linkedin"><span class="link-spanner"></span>
 </div>
   </a>
-  paul kent
 </li>
-
+LinkedIn - paul kent
 <li>
 <a href="mailto:paul@projectresponsive.com">
 <div class="icon-black email"><span class="link-spanner"></span>
 </div>
   </a>
-  paul@projectresponsive.com
 </li>
-
+Email - paul@projectresponsive.com
 </ul>

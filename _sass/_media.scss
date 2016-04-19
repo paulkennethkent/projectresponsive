@@ -126,11 +126,27 @@ pre {
 .contact-social {
   list-style: none;
   padding: 0;
+  width: 40%;
   li {
-    display:grid;
+    // display: inline-block;
+  }
+  p {
+
   }
 }
 
+/* footer social media icons */
+.footer-social {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-nav {
+  width: 45%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /* link spannar  */
 .link-spanner{

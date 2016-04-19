@@ -1,19 +1,17 @@
 <footer class="site-footer">
 
   <div class="container">
-
-    <ul>
-      <li>{{ site.title }}</li> |
-      <li>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </li>
-      |
-      {% assign pages = site.pages | sort:"weight"  %}
-      {% for my_page in pages %} {% if my_page.weight %}
-      <li id="{{my_page.title}}"><a {% if my_page.url == page.url %}active {% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
-      {% endif %} {% endfor %}
-      |
-
+   <div class="footer-nav"
+      <ul>
+        <li>{{ site.title }}</li> |
+        {% assign pages = site.pages | sort:"weight"  %}
+        {% for my_page in pages %} {% if my_page.weight %}
+        <li id="{{my_page.title}}"><a {% if my_page.url == page.url %}active {% endif %}" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a> </li>
+        {% endif %} {% endfor %}
+        |
+      </ul>
+    </div>
+    <div class="footer-social">
       <li>
         <a href="https://www.instagram.com/pkkent/?hl=en">
       <div class="icon-white insta">
@@ -49,7 +47,6 @@
       </div>
         </a>
       </li>
-
-  </ul>
+    </div>
   </div>
 </footer>
