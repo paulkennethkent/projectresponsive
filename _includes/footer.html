@@ -1,8 +1,8 @@
 <footer class="site-footer">
 
   <div class="container">
-   <div class="footer-nav"
-      <ul>
+   <div class="footer-nav">
+      <ul class="footer-links">
         <li>{{ site.title }}</li> |
         {% assign pages = site.pages | sort:"weight"  %}
         {% for my_page in pages %} {% if my_page.weight %}
