@@ -9,7 +9,7 @@ html {
 }
 header {
   border-bottom: 3px solid $green;
-  background-color: $white;
+  background-color: $ghostwhite;
 }
 // header
 @include breakpoint($mobile) {}

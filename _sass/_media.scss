@@ -1,4 +1,4 @@
-//main
+je//main
 main {
   margin-left: 1em;
 }
@@ -8,6 +8,12 @@ main {
     max-width: 100%;
     max-height: 100%;
   }
+}
+
+.home-art {
+  p {
+  clear: both;
+}
 }
 // homepage
 @include breakpoint($mobile) {
@@ -33,6 +39,9 @@ main {
   border: 1px solid $lightgrey;
   margin-bottom: 10px;
   background-color: $white;
+  p {
+    clear:both;
+  }
 }
 // sidebar
 .sidebar {
@@ -43,8 +52,8 @@ main {
 .post-title {}
 .post-meta {
   color: white;
-  padding: 0.2em;
-  color: $quiet-color;
+  color: $green;
+  float:right;
 }
 .post-link {
   text-decoration: none;
@@ -55,6 +64,9 @@ main {
   img {
     height: 30%;
     width: 30%;
+  }
+  p {
+    clear: both;
   }
 }
 .post-back {
@@ -73,6 +85,10 @@ main {
     max-width: 100%;
     max-height: 100%;
   }
+}
+
+.date-title {
+  float: left;
 }
 @include breakpoint($mobile) {
   .project-list {

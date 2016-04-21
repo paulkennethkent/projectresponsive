@@ -25,7 +25,7 @@ weight: 1
     {% for post in site.posts limit:1 %}
     <article class="home-art">
       <h1 class="perm">Posts</h1>
-    <h4>
+    <h4 class="date-title">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </h4>
         <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
