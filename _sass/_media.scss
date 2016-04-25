@@ -152,18 +152,7 @@ pre {
   }
 }
 
-.breadcrumb {
-  display: block;
-  list-style: none;
-  padding-top: 10px;
-  margin: 0px;
-  li {
-    display:inline;
-  }
-  li::before {
-        content: "\003E\00a0";
-  }
-}
+
 
 
 /* footer social media icons */
