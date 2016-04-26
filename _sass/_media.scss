@@ -1,4 +1,4 @@
-je//main
+//main
 main {
   margin-left: 1em;
 }
@@ -49,11 +49,14 @@ main {
   border-right: 1px solid $green;
 }
 // post styles
-.post-title {}
+.post-title {
+  float:left;
+}
 .post-meta {
   color: white;
   color: $green;
   float:right;
+  font-size: 0.8em;
 }
 .post-link {
   text-decoration: none;
@@ -141,14 +144,14 @@ pre {
 
 .contact-social {
   list-style: none;
-  padding: 0;
-  width: 40%;
+  width: 45%;
+  float:left;
 
   li {
-    // display: inline-block;
-  }
-  p {
 
+  }
+  a {
+    text-decoration: none;
   }
 }
 
