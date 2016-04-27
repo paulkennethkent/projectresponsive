@@ -15,19 +15,18 @@
     .hero-left {
       @include span(12);
       min-height: 401px;
-      width: 100px;
-      vertical-align: middle;
-      text-align: center;
-      img {
-        top: $hero-image-top;
-        position: absolute;
-        height: $hero-image-height;
-        margin: $hero-image-margin;
+      padding-top: $hero-padding;
+      svg {
+      margin: 0 auto;
+      display: block;
       }
     }
-    .hero-right {
-      display: none;
+    .hero-centre {
+      display:none;
       }
+      .hero-right {
+      display:none;
+        }
   }
 }
 @include breakpoint($mobile) {
@@ -44,36 +43,40 @@
       background-size: 20px 20px;
       perspective: 1000px;
 			.hero-image {
-				display: block;
         width: 100vw;
+				display: block;
         margin: 0 auto;
+        min-height: 401px;
 			}
 			.hero-left {
-				width: 40vw;
-        left: 0vw;
+        @include span(4);
 				min-height: 401px;
-				position: relative;
-				img {
-					top: $hero-image-top;
-					right: 0px;
-					position: absolute;
-					height: $hero-image-height;
-          margin: $hero-image-margin;
-				}
-			}
-			.hero-right {
-				min-height: 401px;
-				position: relative;
+        padding-top: $hero-padding;
+        svg {
+        margin: 0 auto;
         display: block;
-				width: 40vw;
-        margin-left: 50vw;
-				img {
-					top: $hero-image-top;
-					left: 0px;
-					position: absolute;
-					height: $hero-image-height;
-          margin: $hero-image-margin;
-				}
+        }
+			}
+      .hero-centre {
+        @include span(4 at 4);
+        min-height: 401px;
+        display: block;
+        padding-top: $hero-padding;
+        svg {
+        margin: 0 auto;
+        display: block;
+        }
+
+      }
+			.hero-right {
+        @include span(4 at 8);
+        min-height: 401px;
+        display: block;
+        padding-top: $hero-padding;
+        svg {
+        margin: 0 auto;
+        display: block;
+        }
 			}
     }
   }
