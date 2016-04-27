@@ -36,9 +36,9 @@ main {
 }
 .blog-post {
   padding: 5px;
-  border: 1px solid $lightgrey;
+  border: 3px solid $lightgrey;
   margin-bottom: 10px;
-  background-color: $white;
+  background-color: darken($white, 3%);
   p {
     clear:both;
   }
