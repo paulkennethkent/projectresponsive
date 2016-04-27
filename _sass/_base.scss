@@ -29,7 +29,7 @@ body {
   margin: 0 0 $footer-height;
   /* bottom = footer height */
   overflow-x: hidden;
-  background-color: #F8F8FF;
+  background-color: $white;
 }
 main {
   @include span(12);

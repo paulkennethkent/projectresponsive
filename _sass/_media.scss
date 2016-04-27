@@ -75,11 +75,8 @@ main {
 .post-back {
   float: right;
 }
-
 .post-readmore {
-  @extend .link;
-  text-align: right;
-  font-size: 0.7em;
+    text-align: right;
 }
 // project styles
 .project-card {
