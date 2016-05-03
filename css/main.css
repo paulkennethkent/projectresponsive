@@ -169,7 +169,7 @@ p {
   max-height: 0;
   position: relative; }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .fixed-top-nav {
     vertical-align: middle;
     list-style: none;
@@ -194,7 +194,7 @@ p {
     float: left;
     height: 50px;
     margin: 15px 5px 0 5px; }
-  @media (min-width: 800px) {
+  @media (min-width: 768px) {
     .branding .branding-title {
       font-size: 2em;
       display: block; } }
@@ -303,7 +303,7 @@ main {
 .home-art p {
   clear: both; }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .content {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -395,7 +395,7 @@ main {
 .date-title {
   float: left; }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .project-list {
     display: flex; }
 
@@ -473,7 +473,7 @@ pre {
      make sure you have an empty gif
   background-image: url('empty.gif');*/ }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .sketch {
     animation: fadedown;
     animation-duration: 2s; }
@@ -554,7 +554,7 @@ pre {
     transition: transform 0.5s ease-in-out;
     -webkit-transition: -webkit-transform 0.5s ease-in-out; }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
   .burger {
     display: none; } }
 .fixed-top-nav {
@@ -571,7 +571,7 @@ pre {
   .burger-check:checked ~ .fixed-top-nav a {
     color: #fff; }
 
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
   .burger-check:checked ~ .fixed-top-nav {
     border-style: none;
     background-color: #fff; }
@@ -606,7 +606,54 @@ pre {
     .mega .hero .hero-right {
       display: none; }
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
+  .mega {
+    margin-left: -100%;
+    margin-right: -100%;
+    border-bottom: 1px solid #036307; }
+    .mega .hero {
+      min-height: 401px;
+      background-image: -webkit-linear-gradient(left, #D3D3D3 1px, transparent 1px), -webkit-linear-gradient(#D3D3D3 1px, transparent 0.2em);
+      background-image: -o-linear-gradient(left, #D3D3D3 1px, transparent 1px), -o-linear-gradient(#D3D3D3 1px, transparent 1px);
+      background-image: linear-gradient(to right, #D3D3D3 1px, transparent 1px), linear-gradient(#D3D3D3 1px, transparent 1px);
+      height: 100%;
+      background-size: 20px 20px;
+      perspective: 1000px; }
+      .mega .hero .hero-image {
+        width: 100vw;
+        display: block;
+        margin: 0 auto;
+        min-height: 401px; }
+      .mega .hero .hero-left {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        padding-left: 0.83333%;
+        padding-right: 0.83333%;
+        min-height: 401px;
+        padding-top: 20px; }
+        .mega .hero .hero-left svg {
+          margin: 0 auto;
+          display: block; }
+      .mega .hero .hero-centre {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        width: 50%;
+        float: left;
+        padding-left: 0.83333%;
+        padding-right: 0.83333%;
+        min-height: 401px;
+        display: block;
+        padding-top: 20px; }
+        .mega .hero .hero-centre svg {
+          margin: 0 auto;
+          display: block; }
+      .mega .hero .hero-right {
+        display: none; } }
+@media (min-width: 1024px) {
   .mega {
     margin-left: -100%;
     margin-right: -100%;
@@ -665,6 +712,10 @@ pre {
         .mega .hero .hero-right svg {
           margin: 0 auto;
           display: block; } }
+.device-img {
+  fill: #036307;
+  fill-opacity: 0.8; }
+
 .icon, .icon-white, .icon-black {
   position: relative;
   width: 32px;
