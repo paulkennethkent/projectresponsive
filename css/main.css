@@ -293,7 +293,7 @@ footer {
       text-decoration: none; }
 
 main {
-  margin-left: 1em; }
+  /*   margin-left: 1em; */ }
 
 .home-proj img {
   border: 0.1em solid black;
