@@ -580,6 +580,7 @@ pre {
 .mega {
   margin-left: -100%;
   margin-right: -100%;
+  overflow-x: hidden;
   border-bottom: 1px solid #036307; }
   .mega .hero {
     min-height: 401px;
