@@ -1,5 +1,5 @@
 
-@include breakpoint($mobile) {
+@include breakpoint($desktop) {
   .sketch {
 		animation: fadedown;
 		animation-duration: 2s;
@@ -92,7 +92,7 @@ $burger--thickness: 4px;
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
   }
 }
-@include breakpoint($mobile) {
+@include breakpoint($tablet) {
   .burger {
     display: none;
   }
@@ -114,7 +114,7 @@ $navigation__transition: max-height 0.5s ease-in-out;
     color: $white;
   }
 }
-@include breakpoint($mobile) {
+@include breakpoint($desktop) {
   .burger-check:checked ~ .fixed-top-nav {
     border-style: none;
     background-color: $white;

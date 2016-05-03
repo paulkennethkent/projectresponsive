@@ -11,7 +11,7 @@
   max-height: 0;
   position: relative;
 }
-@include breakpoint($mobile) {
+@include breakpoint($tablet) {
   .fixed-top-nav {
     vertical-align: middle;
     list-style: none;
@@ -44,7 +44,7 @@
     height: 50px;
     margin: 15px 5px 0 5px;
   }
-  @include breakpoint($mobile) {
+  @include breakpoint($tablet) {
     .branding-title {
         font-size: 2em;
         display: block;

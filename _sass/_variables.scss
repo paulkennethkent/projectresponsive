@@ -5,16 +5,18 @@ $header-height: 80px;
 //colours
 $cashmere: #E8B6A5;
 $green: #036307;
+$greentext:lighten(#036307, 5%);
 $greyhero: #D3D3D3;
+$lightgrey: #e6e6e6;
 $black: #000;
 $fontblack: #333;
 $white: #fff;
 $ghostwhite: #fff;
-$lightgrey: #e6e6e6;
-$greentext:lighten(#036307, 5%);
+
 
 //breakpoint
-$mobile: 800px;
+$desktop: 1024px;
+$tablet: 768px;
 
 //hero
 $hero-image-height: 270px;

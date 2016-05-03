@@ -12,7 +12,7 @@ header {
   background-color: $ghostwhite;
 }
 // header
-@include breakpoint($mobile) {}
+@include breakpoint($tablet) {}
 header {
   @include span(12);
   position: static;

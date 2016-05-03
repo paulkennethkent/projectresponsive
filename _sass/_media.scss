@@ -16,7 +16,7 @@ main {
 }
 }
 // homepage
-@include breakpoint($mobile) {
+@include breakpoint($tablet) {
   .content {
     @include span(12);
     margin: 5px 0 0;
@@ -90,7 +90,7 @@ main {
 .date-title {
   float: left;
 }
-@include breakpoint($mobile) {
+@include breakpoint($tablet) {
   .project-list {
     display: flex;
   }

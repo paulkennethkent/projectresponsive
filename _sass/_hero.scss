@@ -29,7 +29,55 @@
         }
   }
 }
-@include breakpoint($mobile) {
+
+@include breakpoint($tablet) {
+  .mega {
+    margin-left: -100%;
+    margin-right: -100%;
+    border-bottom: 1px solid $green;
+    .hero {
+      min-height: 401px;
+      background-image: -webkit-linear-gradient(left, $greyhero 1px, transparent 1px), -webkit-linear-gradient($greyhero 1px, transparent 0.2em);
+      background-image: -o-linear-gradient(left, $greyhero 1px, transparent 1px), -o-linear-gradient($greyhero 1px, transparent 1px);
+      background-image: linear-gradient(to right, $greyhero 1px, transparent 1px), linear-gradient($greyhero 1px, transparent 1px);
+      height: 100%;
+      background-size: 20px 20px;
+      perspective: 1000px;
+			.hero-image {
+        width: 100vw;
+				display: block;
+        margin: 0 auto;
+        min-height: 401px;
+			}
+			.hero-left {
+        @include span(6);
+				min-height: 401px;
+        padding-top: $hero-padding;
+        svg {
+        margin: 0 auto;
+        display: block;
+        }
+			}
+      .hero-centre {
+        @include span(6 at 6);
+        min-height: 401px;
+        display: block;
+        padding-top: $hero-padding;
+        svg {
+        margin: 0 auto;
+        display: block;
+        }
+
+      }
+			.hero-right {
+        display:none;
+			}
+    }
+  }
+}; // HERO images
+
+
+@include breakpoint($desktop) {
   .mega {
     margin-left: -100%;
     margin-right: -100%;
@@ -81,3 +129,8 @@
     }
   }
 }; // HERO images
+
+.device-img {
+  fill: $green;
+  fill-opacity:0.8;
+} // SVG fill colour for hero banner
