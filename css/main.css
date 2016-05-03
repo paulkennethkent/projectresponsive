@@ -588,6 +588,11 @@ pre {
     background-image: linear-gradient(to right, #D3D3D3 1px, transparent 1px), linear-gradient(#D3D3D3 1px, transparent 1px);
     height: 100%;
     background-size: 20px 20px; }
+    .mega .hero .hero-image {
+      width: 100vw;
+      display: block;
+      margin: 0 auto;
+      min-height: 401px; }
     .mega .hero .hero-left {
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
