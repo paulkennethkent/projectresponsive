@@ -1,9 +1,6 @@
 _site
 .sass-cache
 .jekyll-metadata
-<<<<<<< HEAD
 	_site/
 gemfile
 Gemfile.lock
-=======
->>>>>>> paulkennethkent-patch-1
