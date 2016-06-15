@@ -1,3 +1,12 @@
+
+---
+layout: default
+title: Home
+weight: 1
+---
+
+<div class="home">
+
 <!DOCTYPE html>
 <html>
 
@@ -130,42 +139,42 @@
     <div class="trigger perm">
       <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
       <ul class="fixed-top-nav">
-        
-        
-          
-        
-          
-        
-          
+
+
+
+
+
+
+
             <li id="Home" class="perm">
               <a class="link active " href="/projectresponsive/">Home</a>
             </li>
-          
-        
-          
+
+
+
             <li id="About" class="perm">
               <a class="link " href="/projectresponsive/about/">About</a>
             </li>
-          
-        
-          
+
+
+
             <li id="Blog" class="perm">
               <a class="link " href="/projectresponsive/blog/">Blog</a>
             </li>
-          
-        
-          
+
+
+
             <li id="Projects" class="perm">
               <a class="link " href="/projectresponsive/projects/">Projects</a>
             </li>
-          
-        
-          
+
+
+
             <li id="Contact" class="perm">
               <a class="link " href="/projectresponsive/contact/">Contact</a>
             </li>
-          
-        
+
+
       </ul>
     </div>
   </div>
@@ -174,6 +183,7 @@
   <div class="container">
     <main>
       <div class="home">
+>>>>>>> paulkennethkent-patch-1
     <div class="mega">
         <div class="hero">
             <div class="hero-image">
@@ -215,7 +225,19 @@
     </div>
     <div class="content">
 
-        
+<<<<<<< HEAD
+        {% for post in site.posts limit : 1 %}
+            <article class="home-art">
+                <h1 class="perm">Posts</h1>
+                <h4 class="date-title">
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h4>
+                <time datetime="{{post.date}}" {{post.date | date: "%-d %b, %Y "}}></time>
+                <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
+                {{post.excerpt}}
+                <a class="post-readmore" href="{{ post.url | prepend: site.baseurl }}">
+=======
+
             <article class="home-art">
                 <h1 class="perm">Posts</h1>
                 <h4 class="date-title">
@@ -227,6 +249,7 @@
 
 
                 <a class="post-readmore" href="/projectresponsive/blog/why-I-created-a-blog-and-project-website">
+>>>>>>> paulkennethkent-patch-1
                     <?xml version="1.0" ?>
                     <svg height="24px" version="1.1" viewBox="0 0 24 24" width="24px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><desc/><defs/>
                         <g fill="none" fill-rule="evenodd" id="miu" stroke="none" stroke-width="1">
@@ -239,9 +262,28 @@
                 </a>
                 <hr>
             </article>
-        
+<<<<<<< HEAD
+        {% endfor %}
 
-        
+        {% for post in site.projects limit : 1 %}
+            <article class="home-proj">
+                <h1 class="perm">Projects</h1>
+                <h4>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h4>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}"><img src="{{post.picture | prepend: site.baseurl}}"></a>
+
+            </article>
+        {% endfor %}
+
+        <!--
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+    </div>
+=======
+
+
+
             <article class="home-proj">
                 <h1 class="perm">Projects</h1>
                 <h4>
@@ -250,7 +292,7 @@
                 <a class="post-link" href="/projectresponsive/projects/2015-07-01-kerboodle-support-website" title="Permanent link to /projectresponsive/projects/2015-07-01-kerboodle-support-website"><img src="/projectresponsive/images/kerboodle.png"></a>
 
             </article>
-        
+
 
         <!--
   <p class="rss-subscribe">subscribe <a href="/projectresponsive/feed.xml">via RSS</a></p> -->
@@ -267,18 +309,18 @@
    <div class="footer-nav">
       <ul class="footer-links">
         <li>Project Responsive</li> |
-        
-             
+
+
         <li id="Home"><a active " href="/projectresponsive/">Home</a> </li>
-          
+
         <li id="About"><a " href="/projectresponsive/about/">About</a> </li>
-          
+
         <li id="Blog"><a " href="/projectresponsive/blog/">Blog</a> </li>
-          
+
         <li id="Projects"><a " href="/projectresponsive/projects/">Projects</a> </li>
-          
+
         <li id="Contact"><a " href="/projectresponsive/contact/">Contact</a> </li>
-         
+
         |
       </ul>
     </div>
@@ -329,3 +371,4 @@
 </body>
 
 </html>
+>>>>>>> paulkennethkent-patch-1
