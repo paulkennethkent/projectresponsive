@@ -1,35 +1,3 @@
-<<<<<<< HEAD
----
-layout: default
-title: Projects
-permalink: /projects/
-weight: 4
-breadcrumb: Projects
----
-<div class="content">
-  <h2>Projects</h2>
-    {% for post in site.projects %}
-     {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-     {% if modulo == '0' or forloop.first %}
-    <div class="project-list">
-     {% endif %}
-      <div class="project-card">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}"><img src="{{post.picture | prepend: site.baseurl}}"></a>
-            <h3 class="date-title">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="Permanent link to {{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h3>
-          <time datetime="{{post.date}}"{{post.date | date: "%-d %b, %Y "}}></time>
-          <span class="post-meta">{{ post.date | date: " %-d %b, %Y" }}</span>
-
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><span></span></a>
-
-        </div>
-        {% if modulo == '2' or forloop.last %}
-            </div>
-        {% endif %}
-    {% endfor %}
-</div>
-=======
 <!DOCTYPE html>
 <html>
 
@@ -37,10 +5,10 @@ breadcrumb: Projects
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projects</title>
-  <meta name="description" content="Hello, it's me">
+  <title>Browser Matrix</title>
+  <meta name="description" content="I am a post la la la wooooooooo 1stI am a post la la la wooooooooo 2nd paragraphy">
   <link rel="stylesheet" href="/projectresponsive/css/main.css">
-  <link rel="canonical" href="http://projectresponsive.com/projectresponsive/projects/">
+  <link rel="canonical" href="http://projectresponsive.com/projectresponsive/projects/2015-12-10-browser-matrix">
   <link rel="alternate" type="application/rss+xml" title="Project Responsive" href="http://projectresponsive.com/projectresponsive./feed.xml">
 </head>
 
@@ -188,7 +156,7 @@ breadcrumb: Projects
         
           
             <li id="Projects" class="perm">
-              <a class="link active " href="/projectresponsive/projects/">Projects</a>
+              <a class="link " href="/projectresponsive/projects/">Projects</a>
             </li>
           
         
@@ -205,78 +173,67 @@ breadcrumb: Projects
 
   <div class="container">
     <main>
-      <div class="content">
-  <h2>Projects</h2>
+      <ol class="breadcrumb">
+<li><a href="/projectresponsive/">Home</a></li>
+
+
+
+
     
-     
-     
-    <div class="project-list">
-     
-      <div class="project-card">
-            <a class="post-link" href="/projectresponsive/projects/2015-07-01-kerboodle-support-website" title="Permanent link to /projectresponsive/projects/2015-07-01-kerboodle-support-website"><img src="/projectresponsive/images/kerboodle.png"></a>
-            <h3 class="date-title">
-            <a class="post-link" href="/projectresponsive/projects/2015-07-01-kerboodle-support-website" title="Permanent link to /projectresponsive/projects/2015-07-01-kerboodle-support-website">Kerboodle Support</a>
-            </h3>
-          <time datetime="2015-07-01 09:17:19 +0100"1 Jul, 2015 ></time>
-          <span class="post-meta"> 1 Jul, 2015</span>
-
-          <a class="post-link" href="/projectresponsive/projects/2015-07-01-kerboodle-support-website"><span></span></a>
-
-        </div>
+    
+    
+    
         
     
-     
-     
-      <div class="project-card">
-            <a class="post-link" href="/projectresponsive/projects/2015-12-10-browser-matrix" title="Permanent link to /projectresponsive/projects/2015-12-10-browser-matrix"><img src="/projectresponsive/images/browser-matrix.png"></a>
-            <h3 class="date-title">
-            <a class="post-link" href="/projectresponsive/projects/2015-12-10-browser-matrix" title="Permanent link to /projectresponsive/projects/2015-12-10-browser-matrix">Browser Matrix</a>
-            </h3>
-          <time datetime="2015-12-15 08:17:19 +0000"15 Dec, 2015 ></time>
-          <span class="post-meta"> 15 Dec, 2015</span>
-
-          <a class="post-link" href="/projectresponsive/projects/2015-12-10-browser-matrix"><span></span></a>
-
-        </div>
         
     
-     
-     
-      <div class="project-card">
-            <a class="post-link" href="/projectresponsive/projects/2016-12-15-aldwick-building-company" title="Permanent link to /projectresponsive/projects/2016-12-15-aldwick-building-company"><img src="/projectresponsive/images/aldwick-building.png"></a>
-            <h3 class="date-title">
-            <a class="post-link" href="/projectresponsive/projects/2016-12-15-aldwick-building-company" title="Permanent link to /projectresponsive/projects/2016-12-15-aldwick-building-company">Aldwick Building</a>
-            </h3>
-          <time datetime="2016-01-15 08:17:19 +0000"15 Jan, 2016 ></time>
-          <span class="post-meta"> 15 Jan, 2016</span>
-
-          <a class="post-link" href="/projectresponsive/projects/2016-12-15-aldwick-building-company"><span></span></a>
-
-        </div>
-        
-            </div>
         
     
-     
-     
-    <div class="project-list">
-     
-      <div class="project-card">
-            <a class="post-link" href="/projectresponsive/projects/2016-02-15-mymaths-support-website" title="Permanent link to /projectresponsive/projects/2016-02-15-mymaths-support-website"><img src="/projectresponsive/images/mymaths.png"></a>
-            <h3 class="date-title">
-            <a class="post-link" href="/projectresponsive/projects/2016-02-15-mymaths-support-website" title="Permanent link to /projectresponsive/projects/2016-02-15-mymaths-support-website">MyMaths Support Website</a>
-            </h3>
-          <time datetime="2016-02-06 08:17:19 +0000"6 Feb, 2016 ></time>
-          <span class="post-meta"> 6 Feb, 2016</span>
-
-          <a class="post-link" href="/projectresponsive/projects/2016-02-15-mymaths-support-website"><span></span></a>
-
-        </div>
-        
-            </div>
         
     
-</div>
+        
+        
+            <li >
+                
+                <a href="/projectresponsive/projects/">Projects</a>
+            </li>
+            <li>Browser Matrix</li>
+        
+    
+        
+    
+        
+    
+
+    
+    
+    
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+</ol>
+    <h2 class="post-title" itemprop="name headline">Browser Matrix</h2>
+    <p class="post-meta"><time datetime="2015-12-15T08:17:19+00:00" itemprop="datePublished">Dec 15, 2015</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Paul Kent</span></span></p>
+  <div class="post-content" itemprop="articleBody">
+    <p><img src="/projectresponsive/images/browser-matrix.png" alt="Browser Matrix" />
+<img src="/projectresponsive/images/responsive-browser-matrix.png" alt="Browser Matrix" /></p>
+<p>I am a post la la la wooooooooo 1st</p>
+<p>I am a post la la la wooooooooo 2nd paragraphy</p>
+
+  </div>
 
     </main>
 
@@ -296,7 +253,7 @@ breadcrumb: Projects
           
         <li id="Blog"><a " href="/projectresponsive/blog/">Blog</a> </li>
           
-        <li id="Projects"><a active " href="/projectresponsive/projects/">Projects</a> </li>
+        <li id="Projects"><a " href="/projectresponsive/projects/">Projects</a> </li>
           
         <li id="Contact"><a " href="/projectresponsive/contact/">Contact</a> </li>
          
@@ -350,4 +307,3 @@ breadcrumb: Projects
 </body>
 
 </html>
->>>>>>> paulkennethkent-patch-1
