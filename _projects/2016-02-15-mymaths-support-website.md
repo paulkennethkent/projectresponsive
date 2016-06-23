@@ -8,5 +8,3 @@ permalink: '/projects/:path'
 picture: '/images/mymaths.png'
 ---
 ![MyMaths]({{site.baseurl}}/images/mymaths.png)
-<p>I am a post la la la wooooooooo 1st</p>
-<p>I am a post la la la wooooooooo 2nd paragraphy</p>

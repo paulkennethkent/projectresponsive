@@ -9,5 +9,3 @@ picture: '/images/browser-matrix.png'
 ---
 ![Browser Matrix]({{site.baseurl}}/images/browser-matrix.png)
 ![Browser Matrix]({{site.baseurl}}/images/responsive-browser-matrix.png)
-<p>I am a post la la la wooooooooo 1st</p>
-<p>I am a post la la la wooooooooo 2nd paragraphy</p>

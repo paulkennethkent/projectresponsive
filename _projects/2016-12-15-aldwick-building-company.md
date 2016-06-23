@@ -8,5 +8,3 @@ permalink: '/projects/:path'
 picture: '/images/aldwick-building.png'
 ---
 ![Aldwick Building Company]({{site.baseurl}}/images/aldwick-building.png)<!-- more -->
-<p>I am a post la la la wooooooooo 1st</p>
-<p>I am a post la la la wooooooooo 2nd paragraphy</p>
