@@ -5,58 +5,49 @@
     <description>Hello, it&#39;s me</description>
     <link>http://projectresponsive.com/projectresponsive/</link>
     <atom:link href="http://projectresponsive.com/projectresponsive/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 23 Jun 2016 08:49:21 +0100</pubDate>
-    <lastBuildDate>Thu, 23 Jun 2016 08:49:21 +0100</lastBuildDate>
+    <pubDate>Thu, 23 Jun 2016 16:47:59 +0100</pubDate>
+    <lastBuildDate>Thu, 23 Jun 2016 16:47:59 +0100</lastBuildDate>
     <generator>Jekyll v3.1.3</generator>
     
       <item>
-        <title>Why I have created a blog and project website</title>
-        <description>&lt;p&gt;I have always struggled to find time to learn but after I took the the time to plans my days I can commit at least 1-2 hours a day to learning news things. &lt;!-- more --&gt; The only way that I seem to work is reward effectively is by creating a &lt;em&gt;reward system&lt;/em&gt; for myself.&lt;/p&gt;
-
-&lt;p&gt;I am the kind of person that needs to busy. Yes I love a good holiday and you will find my on a sunlounger for long periods of the day in the summer but that normally feeds into the reward system. If it is not an active holiday I will still try to run everyday.&lt;/p&gt;
+        <title>What drives me</title>
+        <description>&lt;p&gt;In the past when learning to code i’ve been an all or nothing kind of guy, where some weeks I would work solidly for 14 hours and others I would just do nothing.  &lt;!-- more --&gt; Weeks or even months would pass and then the dread of not doing anything would set in. It was a really ineffective and depressing way of learning. It’s not that I didn’t want too learn, I was just not seeing the results I was expecting, which was stupid. The problem was for me that some people made it all look so easy on the surface, like they are naturals, like it’s the easiest thing to get into. Let me tell you, It’s not! Yes some people might be better than others but really what they should tell you that you have to put the hours in, through the good and bad times.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Decide in your heart of hearts what really excites and challenges you, and start moving your life in that direction. Every decision you make, from what you eat to what you do with your time tonight, turns you into who you are tomorrow, and the day after that. Look at who you want to be, and start sculpting yourself into that person. You may not get exactly where you thought you’d be, but you will be doing things that suit you in a profession you believe in. Don’t let life randomly kick you into the adult you don’t want to become.
+  &lt;p&gt;Decide in your heart of hearts what really excites and challenges you, and start moving your life in that direction. Every decision you make, from what you eat to what you do with your tonight, turns you into who you are tomorrow, and the day after that. Look at who you want to be, and start sculpting yourself into that person. You may not get exactly where you thought you’d be, but you will be doing things that suit you in a profession you believe in. Don’t let life randomly kick you into the adult you don’t want to become.
 &lt;cite&gt;— Chris Hadfield&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;My day will generally consists of these elements -&lt;/p&gt;
+&lt;p&gt;I found the only way that I seem to work to my full potential is by creating a &lt;em&gt;reward system&lt;/em&gt; for myself. My day generally consists of a few of these activities.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;football&lt;/li&gt;
-  &lt;li&gt;gym&lt;/li&gt;
-  &lt;li&gt;runnings&lt;/li&gt;
-  &lt;li&gt;learn something new technology&lt;/li&gt;
+  &lt;li&gt;Running&lt;/li&gt;
+  &lt;li&gt;GYM&lt;/li&gt;
+  &lt;li&gt;Learning to code&lt;/li&gt;
+  &lt;li&gt;Developing&lt;/li&gt;
+  &lt;li&gt;Football&lt;/li&gt;
+  &lt;li&gt;Learning Spanish&lt;/li&gt;
+  &lt;li&gt;Gaming&lt;/li&gt;
+  &lt;li&gt;Netflix&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;technology that aid in my development&lt;/p&gt;
+&lt;p&gt;I am one of this odd people treats exercise as a reward, I think maybe it’s just a good release for me these days? Anyways nothing frees your mind and relaxes you more when you feel like you’ve earned it. The other great thing is the more you put in the work then the more difficult task you set yourself start becoming more enjoyable and rewarding in their own right.&lt;/p&gt;
+
+&lt;p&gt;Another aspect of this work that drives me is the challenge of it all. It’s like a never ending RPG where you feel like you are constantly upgrading yourself with new skills. With all this new knowledge random ideas and concepts that I imagine they now start to become realistic projects that I can build myself… Well that’s my hope for the future anyways.&lt;/p&gt;
+
+&lt;p&gt;If you are finding it hard to motivate yourself then I implore you to watch this &lt;a href=&quot;https://youtu.be/arj7oStGLkU&quot;&gt;tedtalk&lt;/a&gt; it’s very funny and and excellent take on procrastination.&lt;/p&gt;
+
+&lt;p&gt;Current tech that aids in my development&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.lynda.com&quot; title=&quot;lynda.com&quot;&gt;lynda.com&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.duolingo.com&quot; title=&quot;duolingo.com&quot;&gt;duolingo.com&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.endomondo.com&quot; title=&quot;endomondo.com&quot;&gt;endomondo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.endomondo.com&quot; title=&quot;endomondo.com&quot;&gt;strava&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;jekyll&quot;&gt;Jekyll&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title:  &quot;Why I have created a blog and project website&quot;
-date:   2016-01-18
-categories: jekyll update
----
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;so to start the sever &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll server&lt;/code&gt; every morning, oo look im inline &lt;code class=&quot;highlighter-rouge&quot;&gt;block coding&lt;/code&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jekyll serve
-&lt;span class=&quot;c&quot;&gt;# serves the sites&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git add
-&lt;span class=&quot;c&quot;&gt;# commiting to github&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
 </description>
-        <pubDate>Mon, 18 Jan 2016 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 23 Jun 2016 00:00:00 +0100</pubDate>
         <link>http://projectresponsive.com/projectresponsive/blog/why-I-created-a-blog-and-project-website</link>
         <guid isPermaLink="true">http://projectresponsive.com/projectresponsive/blog/why-I-created-a-blog-and-project-website</guid>
         
@@ -67,94 +58,6 @@ categories: jekyll update
         <category>blogging</category>
         
         <category>lynda</category>
-        
-        <category>jekyll</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Learning how to paginator in Jekyll</title>
-        <description>&lt;p&gt;I am the forth post&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;I am forth post shamone mutha trucker&lt;/p&gt;
-</description>
-        <pubDate>Fri, 08 Jan 2016 08:17:20 +0000</pubDate>
-        <link>http://projectresponsive.com/projectresponsive/blog/i-am-learning</link>
-        <guid isPermaLink="true">http://projectresponsive.com/projectresponsive/blog/i-am-learning</guid>
-        
-        <category>blogging</category>
-        
-        <category>jekyll</category>
-        
-        <category>forth post</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Learning illustrator</title>
-        <description>&lt;p&gt;I am the third post&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;I am third post paragraph la la la wooooooooo&lt;/p&gt;
-</description>
-        <pubDate>Thu, 03 Dec 2015 08:17:20 +0000</pubDate>
-        <link>http://projectresponsive.com/projectresponsive/blog/i-am-learning</link>
-        <guid isPermaLink="true">http://projectresponsive.com/projectresponsive/blog/i-am-learning</guid>
-        
-        <category>blogging</category>
-        
-        <category>jekyll</category>
-        
-        <category>third post</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>This is my blog!</title>
-        <description>&lt;p&gt;I am the second post&lt;/p&gt;
-&lt;!-- more --&gt;
-&lt;p&gt;I am second post paragraph la la la wooooooooo&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Dec 2015 08:17:20 +0000</pubDate>
-        <link>http://projectresponsive.com/projectresponsive/blog/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://projectresponsive.com/projectresponsive/blog/welcome-to-jekyll</guid>
-        
-        <category>blogging</category>
-        
-        <category>jekyll</category>
-        
-        <category>second post</category>
-        
-        
-        <category>jekyll</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Why I have created a blog and project website</title>
-        <description>&lt;p&gt;because I need to!&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Dec 2015 08:17:19 +0000</pubDate>
-        <link>http://projectresponsive.com/projectresponsive/blog/welcome-to-jekyll</link>
-        <guid isPermaLink="true">http://projectresponsive.com/projectresponsive/blog/welcome-to-jekyll</guid>
-        
-        <category>blogging</category>
         
         <category>jekyll</category>
         
