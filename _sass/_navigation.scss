@@ -64,4 +64,7 @@
   li::before {
         content: "\003E\00a0";
   }
+  li:first-child:before {
+        content: "";
+  }
 }
