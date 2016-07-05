@@ -209,6 +209,8 @@ p {
     display: inline; }
   .breadcrumb li::before {
     content: "\003E\00a0"; }
+  .breadcrumb li:first-child:before {
+    content: ""; }
 
 /* Changing Susy default global settings */
 * {
