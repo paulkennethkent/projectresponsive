@@ -580,9 +580,8 @@ pre {
     .burger-check:checked ~ .fixed-top-nav a {
       color: #333; } }
 .mega {
-  margin-left: -100%;
-  margin-right: -100%;
-  overflow-x: hidden;
+  margin-left: -10%;
+  margin-right: -10%;
   border-bottom: 1px solid #036307; }
   .mega .hero {
     min-height: 401px;
