@@ -101,6 +101,11 @@ $burger--thickness: 4px;
 $navigation__transition: max-height 0.5s ease-in-out;
 .fixed-top-nav {
   transition: $navigation__transition;
+  border-color: $green;
+  background-color: $green;
+  a {
+    color: $white;
+  }
 }
 .burger-check:checked ~ .fixed-top-nav {
   max-height: 500px;
@@ -115,6 +120,15 @@ $navigation__transition: max-height 0.5s ease-in-out;
   }
 }
 @include breakpoint($desktop) {
+  .burger-check:checked ~ .fixed-top-nav {
+    border-style: none;
+    background-color: $white;
+    a {
+      color: $fontblack;
+    }
+  }
+}
+@include breakpoint($tablet) {
   .burger-check:checked ~ .fixed-top-nav {
     border-style: none;
     background-color: $white;

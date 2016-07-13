@@ -29,10 +29,13 @@
     }
   }
 }
+
+
 .branding {
   height: $header-height;
   line-height: $header-height;
   font-family: $heading-font-family;
+  @include breakpoint($tablet);
   .branding-title {
     display: none;
   }
@@ -44,13 +47,16 @@
     height: 50px;
     margin: 15px 5px 0 5px;
   }
-  @include breakpoint($tablet) {
+  @include breakpoint($desktop) {
     .branding-title {
         font-size: 2em;
-        display: block;
+        display: block;;
     }
   }
 }
+
+
+
 
 .breadcrumb {
   display: block;
