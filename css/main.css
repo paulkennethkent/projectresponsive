@@ -181,7 +181,8 @@ p {
       padding: 0 5px; }
       .fixed-top-nav li a {
         text-decoration: none;
-        font-weight: bold; } }
+        font-weight: bold;
+        color: #000; } }
 .branding {
   height: 80px;
   line-height: 80px;
@@ -559,24 +560,24 @@ pre {
 @media (min-width: 768px) {
   .burger {
     display: none; } }
-.fixed-top-nav {
-  transition: max-height 0.5s ease-in-out;
-  border-color: #036307;
-  background-color: #036307; }
-  .fixed-top-nav a {
-    color: #fff; }
+@media (max-width: 768px) {
+  .fixed-top-nav {
+    transition: max-height 0.5s ease-in-out;
+    border-color: #036307;
+    background-color: #036307; }
+    .fixed-top-nav a {
+      color: #fff; }
 
-.burger-check:checked ~ .fixed-top-nav {
-  max-height: 500px;
-  transition: max-height 0.5s ease-in-out;
-  border-width: 0 2px 2px 2px;
-  border-style: solid;
-  border-color: #036307;
-  background-color: #036307;
-  list-style: none; }
-  .burger-check:checked ~ .fixed-top-nav a {
-    color: #fff; }
-
+  .burger-check:checked ~ .fixed-top-nav {
+    max-height: 500px;
+    transition: max-height 0.5s ease-in-out;
+    border-width: 0 2px 2px 2px;
+    border-style: solid;
+    border-color: #036307;
+    background-color: #036307;
+    list-style: none; }
+    .burger-check:checked ~ .fixed-top-nav a {
+      color: #fff; } }
 @media (min-width: 1024px) {
   .burger-check:checked ~ .fixed-top-nav {
     border-style: none;

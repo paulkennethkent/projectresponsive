@@ -6,6 +6,7 @@ GEM
       sassy-maps (< 1.0.0)
     colorator (0.1)
     ffi (1.9.10)
+    ffi (1.9.10-x86-mingw32)
     jekyll (3.1.3)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -45,6 +46,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86-mingw32
 
 DEPENDENCIES
   breakpoint
@@ -57,4 +59,4 @@ DEPENDENCIES
   susy
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
