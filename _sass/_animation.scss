@@ -99,6 +99,7 @@ $burger--thickness: 4px;
 }
 // * * * Navigation * * *
 $navigation__transition: max-height 0.5s ease-in-out;
+@include breakpoint(max-width $tablet) {
 .fixed-top-nav {
   transition: $navigation__transition;
   border-color: $green;
@@ -107,6 +108,7 @@ $navigation__transition: max-height 0.5s ease-in-out;
     color: $white;
   }
 }
+
 .burger-check:checked ~ .fixed-top-nav {
   max-height: 500px;
   transition: $navigation__transition;
@@ -119,6 +121,7 @@ $navigation__transition: max-height 0.5s ease-in-out;
     color: $white;
   }
 }
+};
 @include breakpoint($desktop) {
   .burger-check:checked ~ .fixed-top-nav {
     border-style: none;
