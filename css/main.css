@@ -382,6 +382,8 @@ main {
     width: 30%; }
   .post-content p {
     clear: both; }
+  .post-content ul {
+    padding-bottom: 1.5em; }
 
 .post-back {
   float: right; }
