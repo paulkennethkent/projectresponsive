@@ -7,7 +7,7 @@ breadcrumb: Projects
 ---
 <div class="content">
   <h2>Projects</h2>
-    {% for post in site.projects %}
+    {% for post in site.projects reversed %}
      {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
      {% if modulo == '0' or forloop.first %}
     <div class="project-list">

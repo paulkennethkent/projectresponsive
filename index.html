@@ -69,8 +69,8 @@ weight: 1
                 <hr>
             </article>
         {% endfor %}
-
-        {% for post in site.projects limit : 1 %}
+        {% assign items = site.projects | sort: 'date' | reverse %}
+        {% for post in items limit : 1 %}
             <article class="home-proj">
                 <h1 class="perm">Projects</h1>
                 <h4>

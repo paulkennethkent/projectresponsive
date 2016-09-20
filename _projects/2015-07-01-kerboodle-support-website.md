@@ -19,7 +19,7 @@ I wanted the website to be responsive and most of all clear, lots of white space
 
 I created a sidebar nav which responsively becomes a top nav when the browser resizes.
 
-Once the website was created we then transferred all the compiled code onto the Alterian which is the company choice of content management system.  
+Once the website was created we then transferred all the compiled code onto Alterian which is the company choice of content management system.  
 
 ### Technology
 

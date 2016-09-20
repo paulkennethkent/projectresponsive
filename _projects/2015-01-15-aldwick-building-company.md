@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Aldwick Building"
-date:   2016-01-15 08:17:19 +0000
+date:   2014-12-15 08:17:19 +0000
 author: "Paul Kent"
 excerpt_separator: <!-- more -->
 permalink: '/projects/:path'
@@ -18,4 +18,4 @@ This was my first freelance project and one of my first websites since universit
 ### Technology
 * PHP
 * HTML
-* CSS 
+* CSS
