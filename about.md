@@ -11,7 +11,7 @@ I have worked on the technology side of publishing for over 5 years. It has give
 
 Why the name project responsive? In the past I was very focused on making responsive websites but now this is just a given in any aspect of development or web design. My ultimate goal is to produce an original concept or idea, building it from start to finish and making it accessible to everyone. So for now I am going to stick with the name.  
 
-If I learn anything new and exciting I am going to try and post the information [blog]({{site.baseurl}}/blog "here"). I do have other interests other than development so there might be a few posts about learning Spanish, football, running and computer games.  
+If I learn anything new and exciting I am going to try and post the information to my [blog]({{site.baseurl}}/blog "here"). I do have other interests other than development so there might be a few posts about learning Spanish, football, running and computer games.  
 
 <div class="icon-insta">
 </div>

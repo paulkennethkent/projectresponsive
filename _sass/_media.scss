@@ -1,187 +1,207 @@
 //main
+
 main {
-/*   margin-left: 1em; */
+    /*   margin-left: 1em; */
 }
+
 .home-proj {
-  img {
-    border: 0.1em solid black;
-    max-width: 100%;
-    max-height: 100%;
-  }
+    img {
+        border: 0.1em solid black;
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 .home-art {
-  p {
-  clear: both;
-}
+    p {
+        clear: both;
+    }
 }
 // homepage
 @include breakpoint($tablet) {
-  .content {
-    @include span(12);
-    margin: 5px 0 0;
-  }
-  .home-art {
-    @include span(5.5);
-  }
-  .home-proj {
-    @include push(1);
-    @include span(5.5);
-  }
+    .content {
+        @include span(12);
+        margin: 5px 0 0;
+    }
+
+    .home-art {
+        @include span(5.5);
+    }
+
+    .home-proj {
+        @include push(1);
+        @include span(5.5);
+    }
 }
 // blog home
-.blog-list {
-  @include span(12);
-  padding: 5px;
-}
-.blog-post {
-  padding: 5px;
-  border: 3px solid $lightgrey;
-  margin-bottom: 10px;
-  background-color: darken($white, 3%);
-  p {
-    clear:both;
-  }
 
+.content h2 {
+  padding-bottom: 15px;
+}
+
+.blog-list {
+    @include span(12);
+    padding: 5px;
+}
+
+.blog-post {
+    padding: 5px;
+    border: 3px solid $lightgrey;
+    margin-bottom: 10px;
+    background-color: darken($white, 3%);
+
+    p {
+        clear: both;
+    }
 }
 // sidebar
+
 .sidebar {
-  @include span(3);
-  border-right: 1px solid $green;
+    @include span(3);
+    border-right: 1px solid $green;
 }
 // post styles
+
 .post-title {
-  float:left;
+    float: left;
 }
+
 .post-meta {
-  color: white;
-  color: $green;
-  float:right;
-  font-size: 0.8em;
+    color: white;
+    color: $green;
+    float: right;
+    font-size: 0.8em;
 }
+
 .post-link {
-  text-decoration: none;
-  @extend .link;
+    text-decoration: none;
+    @extend .link;
 }
+
 .post-content {
-  margin: 1em 0 0;
-  img {
-    height: 30%;
-    width: 30%;
-  }
-  p {
-    clear: both;
-  }
-  ul {
-    padding-bottom: 1.5em
-  }
+    margin: 1em 0 0;
+
+    img {
+        height: 30%;
+        width: 30%;
+    }
+
+    p {
+        clear: both;
+    }
+
+    ul {
+        padding-bottom: 1.5em;
+    }
 }
+
 .post-back {
-  float: right;
+    float: right;
 }
+
 .post-readmore {
     text-align: right;
 }
 // project styles
+
 .project-card {
-  margin: 10px;
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
+    padding-bottom: 10%;
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
 }
 
 .date-title {
-  float: left;
+    float: left;
 }
 @include breakpoint($tablet) {
-  .project-list {
-    display: flex;
-  }
-  .project-card {
-    @include span(4);
-  }
+    .project-list {
+        display: flex;
+    }
+
+    .project-card {
+        @include span(4);
+        padding-bottom: 10px;
+    }
 }
 /* blockquote styles */
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
+
 blockquote p {
-  display: inline;
+    display: inline;
 }
 // tag cloud
+
 .tagcloud {
-  padding-left: 5px;
-  li {
-    list-style: none;
-    margin-bottom: 5px;
-    font-size: 0.8em;
-  }
+    padding-left: 5px;
+
+    li {
+        list-style: none;
+        margin-bottom: 5px;
+        font-size: 0.8em;
+    }
 }
 /* code styles  */
 pre {
-  background-color: black;
-  padding: 10px;
-  margin: 5px 40px;
-  border-left: 10px solid $green;
-  code {
-    color: white;
-  }
-}
+    background-color: black;
+    padding: 10px;
+    margin: 5px 40px;
+    border-left: 10px solid $green;
 
+    code {
+        color: white;
+    }
+}
 /* social media icons  */
-
 .contact-social {
-  list-style: none;
-  width: 45%;
-  float:left;
+    list-style: none;
+    width: 45%;
+    float: left;
 
-  li {
+    li {}
 
-  }
-  a {
-    text-decoration: none;
-  }
+    a {
+        text-decoration: none;
+    }
 }
-
-
-
-
 /* footer social media icons */
 .footer-social {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .footer-nav {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
-
-
 /* link spannar  */
-.link-spanner{
-  position:absolute;
-  width:100%;
-  height:100%;
-  top:0;
-  left: 0;
-  z-index: 1;
-  /* edit: fixes overlap error in IE7/8,
+.link-spanner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* edit: fixes overlap error in IE7/8,
      make sure you have an empty gif
   background-image: url('empty.gif');*/
 }

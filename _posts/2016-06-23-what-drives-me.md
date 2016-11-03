@@ -23,9 +23,9 @@ In the past when learning to code i've been an all or nothing kind of guy, where
 * Gaming
 * Netflix
 
-I am one of those odd people who treats exercise as a reward, I think maybe it's just a good release for me these days? More recently i've been noticing that even the "working" parts of my day are becoming more enjoyable and rewarding in their own right. Maybe it is like when you first start going to the gym or running - horrible at first but then it just becomes an enjoyable part of your daily routine. Nothing frees your mind and relaxes you more when you feel like you've earned it. I feel like I work and relax to my full potential now.
+Yes I am one of those odd people who treats exercise as a reward, I think maybe it's just a good release for me these days? More recently i've been noticing that even the "working" parts of my day are becoming more enjoyable and rewarding in their own right. Maybe it is like when you first start going to the gym or running - horrible at first but then it just becomes an enjoyable part of your daily routine. Nothing frees your mind and relaxes you more when you feel like you've earned it. I feel like I work and relax to my full potential now.
 
-Another aspect of the work that drives me is the challenge of it all. It's like a never ending RPG where you feel like you are constantly upgrading yourself with new skills. With all this new knowledge my random ideas and concepts that I imagine can now start to become realistic projects that I can build myself... Well that's my hope for the future anyways.   
+Another aspect of this type of work is the challenge of it all. It's like a never ending RPG where you feel like you are constantly upgrading yourself with new skills. With all this new knowledge my random ideas and concepts that I imagine can now start to become realistic projects that I can build myself... Well that's my hope for the future anyways.   
 
 If you are finding it hard to motivate yourself then I implore you to watch this [tedtalk](https://youtu.be/arj7oStGLkU) it's very funny and and excellent take on procrastination.
 
@@ -34,5 +34,5 @@ Current tech that aids my daily routine.
 * [lynda.com](http://www.lynda.com "lynda.com")
 * [duolingo.com](http://www.duolingo.com "duolingo.com")
 * [endomondo](http://www.endomondo.com "endomondo.com")
-* [strava](http://www.endomondo.com "endomondo.com")
+* [strava](https://www.strava.com/athletes/1617782 "strava.com")
 * [github](http://www.github.com/paulkennethkent)
