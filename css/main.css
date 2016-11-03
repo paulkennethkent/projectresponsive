@@ -335,6 +335,9 @@ main {
     float: left;
     padding-left: 0.83333%;
     padding-right: 0.83333%; } }
+.content h2 {
+  padding-bottom: 15px; }
+
 .blog-list {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -392,7 +395,7 @@ main {
   text-align: right; }
 
 .project-card {
-  margin: 10px; }
+  padding-bottom: 10%; }
   .project-card img {
     max-width: 100%;
     max-height: 100%; }
@@ -411,7 +414,8 @@ main {
     width: 33.33333%;
     float: left;
     padding-left: 0.83333%;
-    padding-right: 0.83333%; } }
+    padding-right: 0.83333%;
+    padding-bottom: 10px; } }
 /* blockquote styles */
 blockquote {
   background: #f9f9f9;
@@ -475,8 +479,8 @@ pre {
   left: 0;
   z-index: 1;
   /* edit: fixes overlap error in IE7/8,
-     make sure you have an empty gif
-  background-image: url('empty.gif');*/ }
+   make sure you have an empty gif
+background-image: url('empty.gif');*/ }
 
 @media (min-width: 1024px) {
   .sketch {
