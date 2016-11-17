@@ -13,7 +13,7 @@ picture: '/images/georgi-doig.png'
 [http://georgidoig.github.io/portfolio/](http://georgidoig.github.io/portfolio/)
 
 ### Description
-Georgi Doig is an up and coming video producer. She contacted me to see if I could quickly create a portfolio website for her to showcase the work she has done before graduating. We decided the best thing to do was to use my existing jeykll design/build. So we modified the colour scheme and page layout to fit her needs and also created a nice video introduction page.
+Georgi Doig is an up and coming producer. She contacted me to see if I could quickly create a portfolio website for her to showcase the work she has done. We decided the best thing to do was to use my existing jeykll design/build. So we modified the colour schemes and page layout to fit her needs and also created a nice video introduction page.
 
 This is still a work in process and I plan to modify the template over the coming months.  
 
