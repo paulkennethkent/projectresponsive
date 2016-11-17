@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Aldwick Building"
+title:  "Aldwick Building LTD"
 date:   2014-12-15 08:17:19 +0000
 author: "Paul Kent"
 excerpt_separator: <!-- more -->

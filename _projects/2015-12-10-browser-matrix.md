@@ -14,7 +14,7 @@ picture: '/images/browser-matrix.png'
 [http://ec2-54-170-21-102.eu-west-1.compute.amazonaws.com/browsersupport/index.html](http://ec2-54-170-21-102.eu-west-1.compute.amazonaws.com/browsersupport/index.html)
 
 ### Description
-This was a small project to visually show users of our education platforms which browser we support and which we are testing.
+This was a small project to visually show users of our education platforms which browsers we support and which ones we are testing.
 
 ### Technology
 
