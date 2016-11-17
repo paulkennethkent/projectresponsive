@@ -5,13 +5,13 @@
     <description>Hello, it&#39;s me</description>
     <link>http://projectresponsive.com/projectresponsive/</link>
     <atom:link href="http://projectresponsive.com/projectresponsive/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Nov 2016 18:32:07 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Nov 2016 18:32:07 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Nov 2016 22:14:04 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Nov 2016 22:14:04 +0000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
         <title>The start of my React.js journey</title>
-        <description>&lt;p&gt;I’ve decided to switch my focus away from Ruby and see if I can get my head around &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;React.js&lt;/a&gt;.  I will try and keep to a monthly post cycle and see if can explain what I have learnt along with some useful links and resources i’ve found on the way.  &lt;!-- more --&gt;&lt;/p&gt;
+        <description>&lt;p&gt;I’ve decided to switch my focus away from Ruby and see if I can get my head around &lt;a href=&quot;https://facebook.github.io/react&quot;&gt;React.js&lt;/a&gt;.  I will try and keep to a monthly post cycle and see if I can explain what I have learnt along with some useful links and resources i’ve found on the way.  &lt;!-- more --&gt;&lt;/p&gt;
 
 &lt;p&gt;My goal at the end of this is to release an app which takes data from the popular sports tracker &lt;a href=&quot;http://www.strava.com&quot; title=&quot;strava.com&quot;&gt;Strava&lt;/a&gt; using their &lt;a href=&quot;https://strava.github.io/api&quot;&gt;API&lt;/a&gt;. The closer I get to creating the app the more detail I will reveal about the idea.&lt;/p&gt;
 
@@ -22,14 +22,14 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/atom-beautify&quot;&gt;atom-beautify&lt;/a&gt; - great way to clean up your code&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/emmet&quot;&gt;emmet&lt;/a&gt; - great toolkit for web developers, I haven’t even scratched the surface of its potential but there is some great &lt;a href=&quot;http://docs.emmet.io/&quot;&gt;documentation&lt;/a&gt; on it.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/language-babel&quot;&gt;language-babel&lt;/a&gt; - “language grammar” for atom, colour codes your React.js synatax&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/language-babel&quot;&gt;language-babel&lt;/a&gt; - “language grammar” for atom, colour codes your React.js synatax.&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://atom.io/packages/activate-power-mode&quot;&gt;activate-power-mode&lt;/a&gt; - when you want to feel powerful when coding…&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://atom.io/themes/atom-material-ui&quot;&gt;atom-material-ui&lt;/a&gt; and &lt;a href=&quot;https://atom.io/themes/atom-material-syntax&quot;&gt;atom-material-syntax&lt;/a&gt; the BEST ui and syntax setup.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I’ve been pointed in the direction of &lt;a href=&quot;https://egghead.io&quot;&gt;egghead.io/&lt;/a&gt; by my work collegues who are currently using React. I have to be honest, I didn’t totally connect with the presenter as it quite fast paced but I can see they have some great material on there. I also stumbled across a great youtube channel called &lt;a href=&quot;https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw&quot;&gt;learncode&lt;/a&gt; and he has a really good &lt;a href=&quot;https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b&quot;&gt;playlist&lt;/a&gt; on React that I plan to work my way through first. I will need to brush up on my Javascript theory so I will be reading “The Principles of Object-Orientated Javascript” by Nicholas C.Zakas on my train journeys to work.&lt;/p&gt;
+&lt;p&gt;I’ve been pointed in the direction of &lt;a href=&quot;https://egghead.io&quot;&gt;egghead.io/&lt;/a&gt; by my work collegues who are currently using React. I have to be honest, I didn’t totally connect with the presenter as it is quite fast paced but I can see they have some great material on there. I also stumbled across a great youtube channel called &lt;a href=&quot;https://www.youtube.com/channel/UCVTlvUkGslCV_h-nSAId8Sw&quot;&gt;learncode&lt;/a&gt; and he has a really good &lt;a href=&quot;https://www.youtube.com/playlist?list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b&quot;&gt;playlist&lt;/a&gt; on React that I plan to work my way through first. I will need to brush up on my Javascript theory so I will be reading “The Principles of Object-Orientated Javascript” by Nicholas C.Zakas on my train journeys to work.&lt;/p&gt;
 
-&lt;p&gt;Hopefully by this time next week I will be able to explain some of the things I have learnt.&lt;/p&gt;
+&lt;p&gt;Hopefully by this time next month I will be able to explain some of the things I have learnt.&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Sep 2016 00:00:00 +0100</pubDate>
         <link>http://projectresponsive.com/projectresponsive/blog/my-react-journey</link>
@@ -52,7 +52,7 @@
     
       <item>
         <title>What drives me</title>
-        <description>&lt;p&gt;In the past when learning to code i’ve been an all or nothing kind of guy, where some weeks I would work solidly for 14 hours and others I would just do nothing.  &lt;!-- more --&gt; Weeks or even months would pass and then the dread of not doing anything would set in. It was a really ineffective and depressing way of learning. It’s not that I didn’t want to learn, I was just not seeing the results I was expecting. The problem for me was that some people made it all look so easy on the surface. Let me tell you, it’s not! Yes some people might be better than others but what they really should tell you when you first start is that you have to put the hours in, through the good and bad times. It’s been about 2 years since I’ve worked like that and I never want to go back to that routine.&lt;/p&gt;
+        <description>&lt;p&gt;In the past when learning to code i’ve been an all or nothing kind of guy where some weeks I would work solidly for 14 hours and others I would just do nothing.  &lt;!-- more --&gt; Weeks or even months would pass and then the dread of not doing anything would set in. It was a really ineffective and depressing way of learning. It’s not that I didn’t want to learn, I was just not seeing the results I was expecting. The problem for me was that some people made it all look so easy on the surface. Let me tell you, it’s not! Yes some people might be better than others but what they really should tell you when you first start is that you have to put the hours in, through the good and bad times. It’s been about 2 years since I’ve worked like that and I never want to go back to that routine.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Decide in your heart of hearts what really excites and challenges you, and start moving your life in that direction. Every decision you make, from what you eat to what you do with your tonight, turns you into who you are tomorrow, and the day after that. Look at who you want to be, and start sculpting yourself into that person. You may not get exactly where you thought you’d be, but you will be doing things that suit you in a profession you believe in. Don’t let life randomly kick you into the adult you don’t want to become.
@@ -72,7 +72,7 @@
   &lt;li&gt;Netflix&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Yes I am one of those odd people who treats exercise as a reward, I think maybe it’s just a good release for me these days. More recently i’ve been noticing that even the “working” parts of my day are becoming more enjoyable and rewarding in their own right. Maybe it is like when you first start going to the gym or running - horrible at first but then it just becomes an enjoyable part of your daily routine. Nothing frees your mind and relaxes you more when you feel like you’ve earned it. I feel like I work and relax to my full potential now.&lt;/p&gt;
+&lt;p&gt;Yes I am one of those odd people who treats exercise as a reward. I think maybe it’s just a good release for me these days. More recently i’ve been noticing that even the “working” parts of my day are becoming more enjoyable and rewarding in their own right. Maybe it is like when you first start going to the gym or running - horrible at first but then it just becomes an enjoyable part of your daily routine. Nothing frees your mind and relaxes you more when you feel like you’ve earned it. I feel like I work and relax to my full potential now.&lt;/p&gt;
 
 &lt;p&gt;Another aspect of this work I like is the challenge. It’s like a never ending RPG where you feel like you are constantly upgrading yourself with new skills. With all this new knowledge my random ideas and concepts that I imagine can now start to become realistic projects that I can build myself… Well that’s my hope for the future anyways.&lt;/p&gt;
 
