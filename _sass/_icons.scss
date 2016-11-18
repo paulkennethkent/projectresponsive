@@ -6,38 +6,20 @@
     margin: 3px;
 }
 
-.icon-white {
-  @extend .icon;
-  background-color: $white;
-  &:hover {
-    background-color: $fontblack;
-  }
+.footer-social a svg #email,
+.footer-social a svg #linkedin,
+.footer-social a svg #github,
+.footer-social a svg #twitter,
+.footer-social a svg #instagram {
+  fill: #fff;
+  stroke: #fff;
 }
 
-.icon-black {
-  @extend .icon;
-  background-color: $fontblack;
-  &:hover {
-    background-color: $green;
-  }
-}
-.insta {
-  -webkit-mask-image: url("../images/insta.svg");
-  mask-image: url("../images/insta.svg") no-repeat 50% 50%;
-}
-.twitter {
-  -webkit-mask-image: url("../images/twitter.svg");
-  mask-image: url("../images/twitter.svg") no-repeat 50% 50%;
-}
-.linkedin {
-  -webkit-mask-image: url("../images/linked.svg");
-  mask-image: url("../images/linked.svg") no-repeat 50% 50%;
-}
-.github {
-  -webkit-mask-image: url("../images/github.svg");
-  mask-image: url("../images/github.svg") no-repeat 50% 50%;
-}
-.email {
-  -webkit-mask-image: url("../images/email.svg");
-  mask-image: url("../images/email.svg") no-repeat 50% 50%;
+a svg:hover #email,
+a svg:hover #linkedin,
+a svg:hover #github,
+a svg:hover #twitter,
+a svg:hover #instagram {
+  fill: #000;
+  stroke: #000;
 }
