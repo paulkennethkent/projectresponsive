@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  "Aldwick Building"
+title:  "Aldwick Building Company Ltd"
 date:   2014-12-15 08:17:19 +0000
 author: "Paul Kent"
 excerpt_separator: <!-- more -->
@@ -13,7 +13,7 @@ picture: '/images/aldwick-building.png'
 [http://www.aldwickbuilding.com/](http://www.aldwickbuilding.com/)
 
 ### Description
-This was my first freelance project and one of my first websites since university.  
+Aldwick Building Company Ltd approached me to build their first online website. This was my first freelance project and one of my first websites that I created since university. There are plans to update this using newer technology soon. 
 
 ### Technology
 * PHP

@@ -13,7 +13,7 @@ picture: '/images/kerboodle.png'
 [https://global.oup.com/education/product_support/kerboodle/?region=uk](https://global.oup.com/education/product_support/kerboodle/?region=uk)
 
 ### Description
-I was tasked with creating a support website for OUP online education platform [Kerboodle](https://www.kerboodle.com) which caters for well over a million users. I was pretty much given free reign over the design and the functionality aspects of the project as it was something I was driving the business to build.
+I was tasked with creating a support website for OUP online education platform [Kerboodle](https://www.kerboodle.com) which caters for well over a million users. I was given free reign over the design and the functionality aspects of the project as it was something I was driving the business to build.
 
 I wanted the website to be responsive and most of all clear, lots of white space, not too much noise on each page.
 
