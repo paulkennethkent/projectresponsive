@@ -740,39 +740,25 @@ background-image: url('empty.gif');*/ }
   fill: #036307;
   fill-opacity: 0.8; }
 
-.icon, .icon-white, .icon-black {
+.icon {
   position: relative;
   width: 32px;
   height: 32px;
   display: inline-block;
   margin: 3px; }
 
-.icon-white {
-  background-color: #fff; }
-  .icon-white:hover {
-    background-color: #333; }
+.footer-social a svg #email,
+.footer-social a svg #linkedin,
+.footer-social a svg #github,
+.footer-social a svg #twitter,
+.footer-social a svg #instagram {
+  fill: #fff;
+  stroke: #fff; }
 
-.icon-black {
-  background-color: #333; }
-  .icon-black:hover {
-    background-color: #036307; }
-
-.insta {
-  -webkit-mask-image: url("../images/insta.svg");
-  mask-image: url("../images/insta.svg") no-repeat 50% 50%; }
-
-.twitter {
-  -webkit-mask-image: url("../images/twitter.svg");
-  mask-image: url("../images/twitter.svg") no-repeat 50% 50%; }
-
-.linkedin {
-  -webkit-mask-image: url("../images/linked.svg");
-  mask-image: url("../images/linked.svg") no-repeat 50% 50%; }
-
-.github {
-  -webkit-mask-image: url("../images/github.svg");
-  mask-image: url("../images/github.svg") no-repeat 50% 50%; }
-
-.email {
-  -webkit-mask-image: url("../images/email.svg");
-  mask-image: url("../images/email.svg") no-repeat 50% 50%; }
+a svg:hover #email,
+a svg:hover #linkedin,
+a svg:hover #github,
+a svg:hover #twitter,
+a svg:hover #instagram {
+  fill: #000;
+  stroke: #000; }
