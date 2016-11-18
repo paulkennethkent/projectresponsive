@@ -47,6 +47,7 @@
     float: left;
     height: 50px;
     margin: 15px 5px 0 5px;
+    max-width: 50px;
   }
   @include breakpoint($desktop) {
     .branding-title {
