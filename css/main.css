@@ -194,7 +194,8 @@ p {
   .branding svg {
     float: left;
     height: 50px;
-    margin: 15px 5px 0 5px; }
+    margin: 15px 5px 0 5px;
+    max-width: 50px; }
   @media (min-width: 1024px) {
     .branding .branding-title {
       font-size: 2em;
